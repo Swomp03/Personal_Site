@@ -5,6 +5,7 @@ import tekken_8_logo from "../images/Tekken8Logo.png";
 import guilty_gear_logo from "../images/GuiltyGearStriveLogo.png";
 
 import luke_start from "../images/LukeScreenShot.png"
+import sf_ca from "../images/SFCriticalArt.png"
 
 import "./componentStyles/GameSelect.css";
 
@@ -42,7 +43,7 @@ const GameSelect = () => {
 
           <div id="sf-intro">
             <img id="luke-sf-start" src={luke_start} alt="Luke Start Image" />
-
+            <img id="sf_ca" src={sf_ca} alt="Street Fighter 6 Critical Art Bar" />
             <motion.div
 
               initial="hidden"
@@ -53,6 +54,7 @@ const GameSelect = () => {
             >
               <img id="sf-logo" src={street_fighter_logo} alt="Street Fighter 6 Logo" />
             </motion.div>
+
           </div>
           
 

@@ -69,6 +69,24 @@ h1-slide-in {
     position: absolute;
     transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
     margin-left: 3rem;
+
+    -webkit-filter: drop-shadow(-0.5rem -0.5rem #ff9900) drop-shadow(0.5rem 0.5rem 0.75rem #0000ff);
+    filter: drop-shadow(-0.5rem 0.5rem 0.75rem #ff9900) drop-shadow(0.5rem 0.5rem 0.75rem #0000ff);
+}
+
+#sf_ca {
+    height: 5rem;
+    opacity: 0;
+    z-index: -2;
+    position: absolute;
+    rotate: 2deg;
+    transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
+    margin-left: 2.5rem;
+    margin-top: 10rem;
+
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(0rem 0rem 0.75rem #ff34b1);
+    filter: drop-shadow(0rem 0rem 0.75rem #ff34b1);
 }
 
 
@@ -82,6 +100,10 @@ h1-slide-in {
     opacity: 1;
 }
 
+#sf-intro:hover #sf_ca {
+    transform: scale(1.15) translateY(3.1rem) rotate(-6deg);
+    opacity: 1;
+}
 
 
 
