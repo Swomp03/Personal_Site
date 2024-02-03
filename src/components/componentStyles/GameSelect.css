@@ -7,6 +7,13 @@ h1 {
     text-align: center;
     margin-bottom: 8rem;
     z-index: -5;
+
+    transition: all 0.2s ease-in;
+}
+
+h1:hover {
+    color: #fdec6e;
+    text-shadow: 0px 0px 30px #fdec6e;
 }
 
 
@@ -84,7 +91,7 @@ h1-slide-in {
     rotate: 2deg;
     transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
     margin-left: 2.3rem;
-    margin-top: 11rem;
+    margin-top: 10.5rem;
 
     border-radius: 50%;
     -webkit-filter: drop-shadow(0rem 0rem 0.75rem #ff34b1);
@@ -141,7 +148,7 @@ h1-slide-in {
     position: absolute;
     transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
     margin-left: 3rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     rotate: 4deg;
 
     -webkit-filter: drop-shadow(0rem 0rem 0.75rem #ffeb34);
