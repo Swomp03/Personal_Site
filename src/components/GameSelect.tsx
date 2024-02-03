@@ -40,7 +40,7 @@ const GameSelect = () => {
 
       <div className="game-list">
 
-          <div>
+          <div id="sf-intro">
             <img id="luke-sf-start" src={luke_start} alt="Luke Start Image" />
 
             <motion.div
@@ -48,8 +48,6 @@ const GameSelect = () => {
               initial="hidden"
               whileInView="visible"
               variants={logoAnimation(25, 500)}
-
-              whileHover={{scale: 1.15, transition:{duration:0.2}}}
 
               id="sf-start"
             >

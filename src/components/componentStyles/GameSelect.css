@@ -48,20 +48,44 @@ h1-slide-in {
 }
 
 
+
+
+
+
+
 #sf-logo {
     height: 15rem;
     margin-right: 3rem;
     position: relative;
     -webkit-filter: drop-shadow(0.5rem 0.5rem #000000);
     filter: drop-shadow(0.5rem 0.5rem #000000);
+    transition: transform 0.2s ease-in-out;
 }
 
 #luke-sf-start {
     height: 10rem;
+    opacity: 0;
     z-index: -1;
     position: absolute;
-
+    transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
+    margin-left: 3rem;
 }
+
+
+#sf-intro:hover #sf-logo {
+    transform: scale(1.15);
+    animation: bounce 0.5s;
+}
+
+#sf-intro:hover #luke-sf-start {
+    transform: scale(1.15) translateY(-5rem) rotate(7deg);
+    opacity: 1;
+}
+
+
+
+
+
 
 
 
