@@ -7,6 +7,12 @@ import guilty_gear_logo from "../images/GuiltyGearStriveLogo.png";
 import luke_start from "../images/LukeScreenShot.png"
 import sf_ca from "../images/SFCriticalArt.png"
 
+import victor_start from "../images/VictorThumbnail.png"
+import tekken_health from "../images/TekkenHealth.png"
+
+import may_start from "../images/MayScreenshot.png"
+import gg_burst from "../images/GGBurst.png"
+
 import "./componentStyles/GameSelect.css";
 
 const GameSelect = () => { 
@@ -43,7 +49,7 @@ const GameSelect = () => {
 
           <div id="sf-intro">
             <img id="luke-sf-start" src={luke_start} alt="Luke Start Image" />
-            <img id="sf_ca" src={sf_ca} alt="Street Fighter 6 Critical Art Bar" />
+            <img id="sf-ca" src={sf_ca} alt="Street Fighter 6 Critical Art Bar" />
             <motion.div
 
               initial="hidden"
@@ -57,26 +63,31 @@ const GameSelect = () => {
 
           </div>
           
+          <div id="tekken-intro">
+            <img id="victor-tekken-start" src={victor_start} alt="Victor Start Image" />
+            <img id="tekken-health" src={tekken_health} alt="Tekken 8 Health" />
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              variants={logoAnimation(17, 350)}
+              id="tekken-start"
+            >
+              <img id="tekken-logo" src={tekken_8_logo} alt="Tekken 8 Logo" />
+            </motion.div>
+          </div>
 
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            variants={logoAnimation(17, 350)}
-            whileHover={{scale: 1.15, transition:{duration:0.2}}}
-            id="tekken-start"
-          >
-            <img id="tekken-logo" src={tekken_8_logo} alt="Tekken 8 Logo" />
-          </motion.div>
-
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            variants={logoAnimation(13, 250)}
-            whileHover={{scale: 1.15, transition:{duration:0.2}}}
-            id="gg-start"
-          >
-            <img id="gg-logo" src={guilty_gear_logo} alt="Guilty Gear Strive Logo" />
-          </motion.div>
+          <div id="gg-intro">
+            <img id="may-gg-start" src={may_start} alt="May Start Image" />
+            <img id="gg-burst" src={gg_burst} alt="Guilty Gear Strive Health" />
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              variants={logoAnimation(13, 250)}
+              id="gg-start"
+            >
+              <img id="gg-logo" src={guilty_gear_logo} alt="Guilty Gear Strive Logo" />
+            </motion.div>
+          </div>
 
       </div>
 
