@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.5rem;
+    text-shadow: 0.5rem 0.5rem black;
+    text-align: center;
+}
+
+
+h1-slide-in {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.h1-slide-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.game-list {
+    align-items: center;
+    background-color: dodger blue;
+    display: flex;
+    justify-content: center;
+}
+
+
+.hidden {
+    opacity: 0;
+    filter: blur(1rem);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+#sf-logo {
+    height: 15rem;
+    margin-right: 3rem;
+    position: relative;
+    -webkit-filter: drop-shadow(0.5rem 0.5rem #000000);
+    filter: drop-shadow(0.5rem 0.5rem #000000);
+}
+
+#luke-sf-start {
+    height: 10rem;
+    z-index: -1;
+    position: absolute;
+
+}
+
+
+
+#tekken-logo {
+    height: 4.3rem;
+    -webkit-filter: drop-shadow(0.5rem 0.5rem #000000);
+    filter: drop-shadow(0.5rem 0.5rem #000000);
+}
+
+#gg-logo {
+    height: 5.5rem;
+    -webkit-filter: drop-shadow(0.5rem 0.5rem #000000);
+    filter: drop-shadow(0.5rem 0.5rem #000000);
+    margin-left: 5rem;
+}
+
+#temp {
+    margin-top: 50rem;
+}
