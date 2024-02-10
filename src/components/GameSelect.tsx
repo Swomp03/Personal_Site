@@ -36,13 +36,15 @@ const GameSelect = () => {
 
   return (
     <>
-      <motion.div
+      {/* <motion.div
         initial="hidden"
         whileInView="visible"
         variants={logoAnimation(32, 650, -50)}
       >
         <h1>Hobbies: Fighting Games</h1>
-      </motion.div>
+      </motion.div> */}
+
+      <h1 className="hobby-title">Hobbies: Fighting Games</h1>
 
 
       <div className="game-list">

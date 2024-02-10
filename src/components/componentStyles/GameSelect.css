@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+body {
+    background-color: #282828 !important;
+}
+
 h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 3.5rem;
     text-shadow: 0.5rem 0.5rem black;
     text-align: center;
-    margin-bottom: 8rem;
-    z-index: -5;
+    color: white !important;
+    z-index: 0;
 
     transition: all 0.2s ease-in;
 }
@@ -57,6 +61,11 @@ h1-slide-in {
 }
 
 
+.hobby-title {
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
 
 
 
@@ -64,6 +73,7 @@ h1-slide-in {
 
 #sf-logo {
     height: 15rem;
+    z-index: 5;
     margin-right: 3rem;
     position: relative;
     -webkit-filter: drop-shadow(0.5rem 0.5rem #000000);
@@ -74,7 +84,7 @@ h1-slide-in {
 #luke-sf-start {
     height: 10rem;
     opacity: 0;
-    z-index: -1;
+    z-index: 4;
     position: absolute;
     transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
     margin-left: 3rem;
@@ -86,7 +96,7 @@ h1-slide-in {
 #sf-ca {
     height: 5rem;
     opacity: 0;
-    z-index: -2;
+    z-index: 3;
     position: absolute;
     rotate: 2deg;
     transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
@@ -123,15 +133,18 @@ h1-slide-in {
 
 #tekken-logo {
     height: 4.3rem;
+    z-index: 5;
     -webkit-filter: drop-shadow(0.5rem 0.5rem #000000);
     filter: drop-shadow(0.5rem 0.5rem #000000);
     transition: transform 0.2s ease-in-out;
+    position: relative;
+    margin-left: 1rem;
 }
 
 #victor-tekken-start {
     height: 10rem;
     opacity: 0;
-    z-index: -1;
+    z-index: 4;
     position: absolute;
     transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
     margin-left: 7rem;
@@ -144,7 +157,7 @@ h1-slide-in {
 #tekken-health {
     height: 3rem;
     opacity: 0;
-    z-index: -2;
+    z-index: 3;
     position: absolute;
     transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
     margin-left: 3rem;
@@ -179,16 +192,18 @@ h1-slide-in {
 
 #gg-logo {
     height: 5.5rem;
+    z-index: 5;
     -webkit-filter: drop-shadow(0.5rem 0.5rem #000000);
     filter: drop-shadow(0.5rem 0.5rem #000000);
     transition: transform 0.2s ease-in-out;
     margin-left: 5rem;
+    position: relative;
 }
 
 #may-gg-start {
     height: 15rem;
     opacity: 0;
-    z-index: -1;
+    z-index: 4;
     position: absolute;
     transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
     margin-left: 5rem;
@@ -201,7 +216,7 @@ h1-slide-in {
 #gg-burst {
     height: 8rem;
     opacity: 0;
-    z-index: -2;
+    z-index: 3;
     position: absolute;
     transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
     margin-left: 7.5rem;
