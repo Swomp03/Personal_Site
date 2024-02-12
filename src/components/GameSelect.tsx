@@ -15,6 +15,8 @@ import gg_burst from "../images/GGBurst.png"
 
 import "./componentStyles/GameSelect.css";
 
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 const GameSelect = () => { 
 
   const logoAnimation = (dampingAmount: Number, stiffnessAmount: Number, yVal = 50) => ({
@@ -94,7 +96,6 @@ const GameSelect = () => {
       </div>
 
       <div className="game-list" id="temp">
-        <img id="sf-logo" src={street_fighter_logo} alt="Street Fighter 6 Logo" />
       </div>
     </>
   );

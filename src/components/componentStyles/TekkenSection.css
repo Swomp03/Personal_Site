@@ -1,0 +1,33 @@
+.carousel-container {
+    width: 50rem;
+    margin: auto;
+}
+
+.leftside {
+    float: left;
+}
+
+.leftside img {
+    height: 45rem;
+}
+
+.rightside {
+    float: right;
+}
+
+.rightside h2,
+.rightside p {
+    color: white;
+}
+
+#tekken-logo {
+    height: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+
+/* .carousel-image {
+    height: 200px;
+} */
