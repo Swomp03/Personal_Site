@@ -8,6 +8,10 @@ import VictorSlideshowThree from '../images/VictorSlideshow3.png';
 import VictorSlideshowFour from '../images/VictorSlideshow4.png';
 import TekkenLogo from "../images/Tekken8Logo.png"
 
+import VictorGalleryOne from '../images/Victor1.png'
+import VictorGalleryTwo from '../images/Victor2.png'
+import VictorGalleryThree from '../images/Victor3.png'
+
 
 import Carousel from "react-bootstrap/Carousel"
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -23,7 +27,15 @@ const TekkenSection = () => {
 
       <div>      
         <div className="leftside">
-          <img src={VictorPNG} alt="Victor Chevalier" />
+          <img id="victor-main" src={VictorPNG} alt="Victor Chevalier" />
+
+          <div className="vertical-gallery">
+            <img src={VictorGalleryOne} alt="Victor Gallery 1" />
+            <br />
+            <img src={VictorGalleryTwo} alt="Victor Gallery 2" />
+            <br />
+            <img src={VictorGalleryThree} alt="Victor Gallery 3" />
+          </div>
         </div>
 
         <div className="rightside">
@@ -65,14 +77,15 @@ const TekkenSection = () => {
                 />
               </Carousel.Item>
             </Carousel>
-
-            <h2>Character:</h2>
-            <p>Caption</p>
-            <h2>Highest Rank:</h2>
-            <p>Test</p>
-            <h2>Character Type:</h2>
-            <p>Counterhit & Commital</p>
           </div>
+          
+          <h2>Character:</h2>
+          <p>Victor Chevalier</p>
+          <h2>Highest Rank:</h2>
+          <p>Destroyer</p>
+          <h2>Character Type:</h2>
+          <p>Counterhit & Commital</p>
+          
         </div>
       </div>
     </>

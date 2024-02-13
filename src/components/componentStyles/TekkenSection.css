@@ -1,23 +1,31 @@
 .carousel-container {
-    width: 50rem;
-    margin: auto;
+    width: 45rem;
+    margin-bottom: 1rem;
 }
 
 .leftside {
     float: left;
-}
-
-.leftside img {
-    height: 45rem;
+    margin-bottom: 2rem;
 }
 
 .rightside {
     float: right;
+    margin-right: 6rem;
 }
 
 .rightside h2,
 .rightside p {
     color: white;
+}
+
+.vertical-gallery {
+    float: right;
+    margin-left: 5rem;
+}
+
+.vertical-gallery img {
+    width: 11rem;
+    margin-bottom: 1.7rem;
 }
 
 #tekken-logo {
@@ -26,6 +34,11 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
+}
+
+#victor-main {
+    height: 43rem;
+    margin-left: 5rem;
 }
 
 /* .carousel-image {
