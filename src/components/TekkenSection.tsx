@@ -40,7 +40,7 @@ const TekkenSection = () => {
 
         <div className="rightside">
           <div className="carousel-container rightside">
-            <Carousel fade>
+            <Carousel fade controls={false}>
               <Carousel.Item>
                 <img
                   className="carousel-image d-block w-100"
@@ -82,7 +82,7 @@ const TekkenSection = () => {
           <h2>Character:</h2>
           <p>Victor Chevalier</p>
           <h2>Highest Rank:</h2>
-          <p>Destroyer</p>
+          <p>Eliminator</p>
           <h2>Character Type:</h2>
           <p>Counterhit & Commital</p>
           

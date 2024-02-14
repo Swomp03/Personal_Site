@@ -19,13 +19,19 @@
 }
 
 .vertical-gallery {
-    float: right;
-    margin-left: 5rem;
+    float: left;
+    margin-left: 10rem;
 }
 
 .vertical-gallery img {
     width: 11rem;
     margin-bottom: 1.7rem;
+}
+
+.carousel-indicators button {
+    width: 0.7rem !important;
+    height: 0.7rem !important;
+    border-radius: 100%;
 }
 
 #tekken-logo {
