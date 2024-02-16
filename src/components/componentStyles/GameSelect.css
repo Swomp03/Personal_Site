@@ -133,7 +133,7 @@ h1-slide-in {
 
 #tekken-logo {
     height: 4.3rem;
-    z-index: 5;
+    z-index: 5 !important;
     -webkit-filter: drop-shadow(0.5rem 0.5rem #000000);
     filter: drop-shadow(0.5rem 0.5rem #000000);
     transition: transform 0.2s ease-in-out;
@@ -144,10 +144,10 @@ h1-slide-in {
 #victor-tekken-start {
     height: 10rem;
     opacity: 0;
-    z-index: 4;
+    z-index: 2;
     position: absolute;
     transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
-    margin-left: 7rem;
+    margin-left: 10rem;
     margin-top: -4rem;
 
     -webkit-filter: drop-shadow(-0.5rem 0.5rem 0.75rem #C0C0C0) drop-shadow(0.5rem 0.5rem 0.75rem #5d00ff);
@@ -157,10 +157,10 @@ h1-slide-in {
 #tekken-health {
     height: 3rem;
     opacity: 0;
-    z-index: 3;
+    z-index: 1;
     position: absolute;
     transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
-    margin-left: 3rem;
+    margin-left: 6rem;
     margin-top: 2.5rem;
     rotate: 4deg;
 
@@ -168,6 +168,9 @@ h1-slide-in {
     filter: drop-shadow(0rem 0rem 0.75rem #ffeb34);
 }
 
+#tekken-intro {
+    margin-top: 3rem;
+}
 
 #tekken-intro:hover #tekken-logo {
     transform: scale(1.15);
