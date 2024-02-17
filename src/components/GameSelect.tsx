@@ -61,6 +61,9 @@ const GameSelect = () => {
               variants={logoAnimation(25, 500)}
 
               id="sf-start"
+              viewport={{
+                once: true
+              }}
             >
               <img id="sf-logo" src={street_fighter_logo} alt="Street Fighter 6 Logo" />
             </motion.div>
@@ -75,8 +78,13 @@ const GameSelect = () => {
               whileInView="visible"
               variants={logoAnimation(17, 350)}
               id="tekken-start"
+              viewport={{
+                once: true
+              }}
             >
-              <img id="tekken-logo" src={tekken_8_logo} alt="Tekken 8 Logo" />
+              <a href="#tekken-section">
+                <img id="tekken-logo" src={tekken_8_logo} alt="Tekken 8 Logo" />
+              </a>
             </motion.div>
           </div>
 
@@ -88,6 +96,9 @@ const GameSelect = () => {
               whileInView="visible"
               variants={logoAnimation(13, 250)}
               id="gg-start"
+              viewport={{
+                once: true
+              }}
             >
               <img id="gg-logo" src={guilty_gear_logo} alt="Guilty Gear Strive Logo" />
             </motion.div>

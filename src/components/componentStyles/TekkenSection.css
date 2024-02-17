@@ -1,6 +1,14 @@
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
 .carousel-container {
-    width: 45rem;
-    margin-bottom: 1rem;
+    width: 50rem;
+    margin-bottom: 1.5rem;
 }
 
 .leftside {
@@ -10,7 +18,7 @@
 
 .rightside {
     float: right;
-    margin-right: 6rem;
+    margin-right: 4rem;
 }
 
 .rightside h2,
@@ -24,7 +32,7 @@
 }
 
 .vertical-gallery img {
-    width: 11rem;
+    width: 13rem;
     margin-bottom: 1.7rem;
 }
 
@@ -33,6 +41,23 @@
     height: 0.7rem !important;
     border-radius: 100%;
 }
+
+.rightside .left-sub-list {
+    float: left;
+    margin-left: 4rem;
+}
+
+.rightside .right-sub-list {
+    float: right;
+    align-items: center;
+    text-align: center;
+    margin-right: 6rem;
+}
+
+.rightside .right-sub-list img {
+    height: 9rem;
+}
+
 
 #tekken-logo {
     height: 5rem;
@@ -43,7 +68,7 @@
 }
 
 #victor-main {
-    height: 43rem;
+    height: 42rem;
     margin-left: 5rem;
 }
 
