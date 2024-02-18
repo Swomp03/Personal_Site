@@ -1,24 +1,31 @@
 h2 {
     font-size: 40px;
+    -webkit-filter: drop-shadow(0.5rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem #000000);
 }
 
 p {
     font-size: 20px;
+    -webkit-filter: drop-shadow(0.5rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem #000000);
 }
 
 .carousel-container {
     width: 50rem;
     margin-bottom: 1.5rem;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
 }
 
 .leftside {
     float: left;
     margin-bottom: 2rem;
+    margin-left: -10rem;
 }
 
 .rightside {
     float: right;
-    margin-right: 4rem;
+    margin-right: -6rem;
 }
 
 .rightside h2,
@@ -28,12 +35,12 @@ p {
 
 .vertical-gallery {
     float: left;
-    margin-left: 10rem;
 }
 
 .vertical-gallery img {
     width: 13rem;
-    margin-bottom: 1.7rem;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
 }
 
 .carousel-indicators button {
@@ -44,19 +51,22 @@ p {
 
 .rightside .left-sub-list {
     float: left;
-    margin-left: 4rem;
+    margin-left: 8rem;
 }
 
 .rightside .right-sub-list {
     float: right;
     align-items: center;
     text-align: center;
-    margin-right: 7rem;
+    margin-right: 0rem;
 }
 
 .rightside .right-sub-list img {
     height: 9rem;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
 }
+
 
 
 #tekken-logo {
@@ -68,10 +78,12 @@ p {
 }
 
 #victor-main {
-    height: 42rem;
+    float: right;
     margin-left: 5rem;
 }
 
-/* .carousel-image {
-    height: 200px;
-} */
+#victor-main img {
+    height: 42rem;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+}
