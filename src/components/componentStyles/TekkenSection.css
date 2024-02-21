@@ -17,23 +17,23 @@ p {
     filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
 }
 
-.leftside {
+.tekken-leftside {
     float: left;
     margin-bottom: 2rem;
     margin-left: -10rem;
 }
 
-.rightside {
+.tekken-rightside {
     float: right;
     margin-right: -6rem;
 }
 
-.rightside h2,
-.rightside p {
+.tekken-rightside h2,
+.tekken-rightside p {
     color: white;
 }
 
-.vertical-gallery {
+.tekken-leftside .vertical-gallery {
     float: left;
 }
 
@@ -49,19 +49,19 @@ p {
     border-radius: 100%;
 }
 
-.rightside .left-sub-list {
+.tekken-rightside .left-sub-list {
     float: left;
     margin-left: 8rem;
 }
 
-.rightside .right-sub-list {
+.tekken-rightside .right-sub-list {
     float: right;
     align-items: center;
     text-align: center;
     margin-right: 0rem;
 }
 
-.rightside .right-sub-list img {
+.tekken-rightside .right-sub-list img {
     height: 9rem;
     -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
     filter: drop-shadow(1rem 0.5rem 0.5rem #000000);

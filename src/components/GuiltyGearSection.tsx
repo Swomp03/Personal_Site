@@ -17,12 +17,14 @@ import GGRank from "../images/GGRank.png"
 import Carousel from "react-bootstrap/Carousel"
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import "../components/componentStyles/GGSection.css"
+
 // import "../components/componentStyles/TekkenSection.css"
 
 
 const GuiltyGearSection = () => {
 
-  const container = {
+  const gg_container = {
     hidden: { opacity: 1, scale: 1 },
     visible: {
       opacity: 1,
@@ -34,7 +36,7 @@ const GuiltyGearSection = () => {
     }
   };
   
-  const item = {
+  const gg_item = {
     hidden: { y: 20, opacity: 0 },
     visible: {
       y: 0,
@@ -45,138 +47,17 @@ const GuiltyGearSection = () => {
   return (
     <>
       <motion.ul
-        className="container"
-        variants={container}
+        className="gg_container"
+        variants={gg_container}
         initial="hidden"
         whileInView="visible"
       >
-        <div id="gg-section">
-          <motion.li
-            className="item"
-            variants={item}
-          >
-            <img id="gg-logo" src={GGLogo} alt="Guilty Gear Strive Logo" />
-          </motion.li>
-
-          <div>
-            <div className="leftside">
-              
-              <div className="vertical-gallery">
-
-                <motion.li
-                  className="item"
-                  variants={item}
-                >
-                  <img src={MayGalleryOne} alt="May Gallery 1" />
-                </motion.li>
-
-                <br />
-
-                <motion.li
-                  className="item"
-                  variants={item}
-                >
-                  <img src={MayGalleryTwo} alt="May Gallery 2" />
-                </motion.li>
-
-                <br />
-
-                <motion.li
-                  className="item"
-                  variants={item}
-                >
-                  <img src={MayGalleryThree} alt="May Gallery 3" />
-                </motion.li>
-
-              </div>
-
-              <motion.li
-                className="item"
-                variants={item}
-                id="victor-main"
-              >
-                <img src={MayPNG} alt="May" />
-              </motion.li>
-
-            </div>
-
-            <div className="rightside">
-              <motion.li
-                variants={item}
-                className="item carousel-container rightside"
-              >
-
-                <Carousel fade controls={false} interval={2500}>
-                  <Carousel.Item>
-                    <img
-                      className="carousel-image d-block w-100"
-                      src={MaySlideshowZero}
-                      alt="First slide"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="carousel-image d-block w-100"
-                      src={MaySlideshowOne}
-                      alt="Second slide"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="carousel-image d-block w-100"
-                      src={MaySlideshowTwo}
-                      alt="Third slide"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="carousel-image d-block w-100"
-                      src={MaySlideshowThree}
-                      alt="Fourth slide"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="carousel-image d-block w-100"
-                      src={MaySlideshowFour}
-                      alt="Fifth slide"
-                    />
-                  </Carousel.Item>
-                </Carousel>
-
-              </motion.li>
-              
-              <div className="sub-list">
-                <div className="left-sub-list">
-                  <motion.li
-                    className="item"
-                    variants={item}
-                  >
-                    <h2>Character:</h2>
-                    <p>May</p>
-                  </motion.li>
-
-                  <motion.li
-                    className="item"
-                    variants={item}
-                  >
-                    <h2>Type:</h2>
-                    <p>Power & Charge</p>
-                  </motion.li>
-                </div>
-
-                <motion.li
-                  variants={item}
-                  className="item right-sub-list"
-                >
-                  <h2>Highest Rank:</h2>
-                  <img src={GGRank} alt="Guilty Gear Strive Rank" />
-                </motion.li>
-              </div>
-              
-            </div>
-          </div>
-        </div>
+        <motion.li
+          className="gg_item"
+          variants={gg_item}
+        >
+          <img id="gg-section-logo" src={GGLogo} alt="Guilty Gear Strive Logo" />
+        </motion.li>
       </motion.ul>
     </>
   )

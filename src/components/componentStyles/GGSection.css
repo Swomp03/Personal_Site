@@ -2,7 +2,10 @@
     margin-top: 70rem;
 }
 
-#gg-logo {
-    align-items: center;
-    align-content: center;
+#gg-section-logo {
+    height: 10rem;
+}
+
+#gg-rank {
+    height: 3rem !important;
 }

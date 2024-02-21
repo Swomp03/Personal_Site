@@ -248,6 +248,10 @@ h1-slide-in {
 
 
 
-#temp {
+.spacing {
     margin-top: 50rem;
+}
+
+.spacing2 {
+    margin-top: 75rem;
 }

@@ -50,7 +50,7 @@ const TekkenSection = () => {
   return (
     <>
       <motion.ul
-        className="container"
+        className="container tekken-container"
         variants={container}
         initial="hidden"
         whileInView="visible"
@@ -64,7 +64,7 @@ const TekkenSection = () => {
           </motion.li>
 
           <div>
-            <div className="leftside">
+            <div className="tekken-leftside">
               
               <div className="vertical-gallery">
 
@@ -105,10 +105,10 @@ const TekkenSection = () => {
 
             </div>
 
-            <div className="rightside">
+            <div className="tekken-rightside">
               <motion.li
                 variants={item}
-                className="item carousel-container rightside"
+                className="item carousel-container tekken-rightside"
               >
 
                 <Carousel fade controls={false} interval={2500}>

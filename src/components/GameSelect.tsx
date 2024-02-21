@@ -17,6 +17,9 @@ import "./componentStyles/GameSelect.css";
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
+import TekkenSection from "./TekkenSection";
+import GuiltyGearSection from "./GuiltyGearSection";
+
 const GameSelect = () => { 
 
   const logoAnimation = (dampingAmount: Number, stiffnessAmount: Number, yVal = 50) => ({
@@ -106,8 +109,15 @@ const GameSelect = () => {
 
       </div>
 
-      <div className="game-list" id="temp">
+      <div className="spacing">
+        <TekkenSection></TekkenSection>
       </div>
+
+      
+      <div className="spacing2">
+        <GuiltyGearSection></GuiltyGearSection>
+      </div>
+
     </>
   );
 };
