@@ -69,6 +69,16 @@ p {
 
 
 
+.header-tag {
+    display: block;
+    position: relative;
+    top: -3.5rem;
+    visibility: hidden;
+}
+
+
+
+
 #tekken-logo {
     height: 5rem;
     display: block;
@@ -86,4 +96,10 @@ p {
     height: 42rem;
     -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
     filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+}
+
+
+#bottom-spacing {
+    margin-top: 30rem;
+    width: 0.1px !important;
 }

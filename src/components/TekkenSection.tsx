@@ -18,6 +18,7 @@ import Carousel from "react-bootstrap/Carousel"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "../components/componentStyles/TekkenSection.css"
+import { useRef } from "react";
 // import '../components/componentStyles/GameSelect.css'
 
 
@@ -43,18 +44,19 @@ const TekkenSection = () => {
     }
   };
 
-
-
-
+  const scrollRef = useRef(null);
 
   return (
     <>
+      <div className="header-tag" id="tekken-anchor"></div>
       <motion.ul
+        ref={scrollRef}
         className="container tekken-container"
         variants={container}
         initial="hidden"
         whileInView="visible"
       >
+
         <div id="tekken-section">
           <motion.li
             className="item"
@@ -182,6 +184,7 @@ const TekkenSection = () => {
             </div>
           </div>
         </div>
+        <img src={TekkenLogo} alt="" id="bottom-spacing"/>
       </motion.ul>
     </>
   )

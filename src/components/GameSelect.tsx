@@ -85,7 +85,7 @@ const GameSelect = () => {
                 once: true
               }}
             >
-              <a href="#tekken-section">
+              <a href="#tekken-anchor">
                 <img id="tekken-logo" src={tekken_8_logo} alt="Tekken 8 Logo" />
               </a>
             </motion.div>
