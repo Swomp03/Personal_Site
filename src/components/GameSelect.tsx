@@ -103,7 +103,9 @@ const GameSelect = () => {
                 once: true
               }}
             >
-              <img id="gg-logo" src={guilty_gear_logo} alt="Guilty Gear Strive Logo" />
+              <a href="#guilty-gear-anchor">
+                <img id="gg-logo" src={guilty_gear_logo} alt="Guilty Gear Strive Logo" />
+              </a>
             </motion.div>
           </div>
 

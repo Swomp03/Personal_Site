@@ -46,6 +46,7 @@ const GuiltyGearSection = () => {
 
   return (
     <>
+      <div className="header-tag" id="guilty-gear-anchor"></div>
       <motion.ul
         className="gg_container"
         variants={gg_container}
