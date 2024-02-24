@@ -107,6 +107,72 @@ const GuiltyGearSection = () => {
                 </Carousel.Item>
               </Carousel>
             </motion.li>
+            <div className="gg-sub-list">
+              <div className="gg-left-sub-list">
+                <motion.li
+                  className="gg_item"
+                  variants={gg_item}
+                >
+                  <h2>Character:</h2>
+                  <p>May</p>
+                </motion.li>
+              </div>
+
+              <div className="gg-rank-sub-list">
+                <motion.li
+                  className="gg_item"
+                  variants={gg_item}
+                >
+                  <h2>Highest Rank:</h2>
+                  <img id="gg-rank" src={GGRank} alt="Guilty Gear Strive Rank" />
+                </motion.li>
+              </div>
+
+              <div className="gg-right-sub-list">
+                <motion.li
+                  className="gg_item"
+                  variants={gg_item}
+                >
+                  <h2>Type:</h2>
+                  <p>Charge and Power</p>
+                </motion.li>
+              </div>
+            </div>
+          </div>
+
+          <div className="gg-rightside">
+            <motion.li
+              className="gg_item"
+              variants={gg_item}
+            >
+              <img id="gg-may-rightside" src={MayPNG} alt="May Guilty Gear" />
+            </motion.li>
+            <div className="gg-vertical-gallery">
+              <motion.li
+                className="gg_item"
+                variants={gg_item}
+              >
+                <img src={MayGalleryOne} alt="May Gallery One" />
+              </motion.li>
+
+              <br />
+
+              <motion.li
+                className="gg_item"
+                variants={gg_item}
+              >
+                <img src={MayGalleryTwo} alt="May Gallery Two" />
+              </motion.li>
+
+              <br />
+
+              <motion.li
+                className="gg_item"
+                variants={gg_item}
+              >
+                <img src={MayGalleryThree} alt="May Gallery Three" />
+              </motion.li>
+            </div>
           </div>
         </div>
       </motion.ul>

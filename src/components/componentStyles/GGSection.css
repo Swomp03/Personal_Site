@@ -1,3 +1,33 @@
+p,
+h2 {
+    color: white;
+}
+
+.gg-sub-list {
+    float: left;
+    margin-left: 1rem;
+    margin-bottom: 10rem;
+    display: flex;
+}
+
+.gg-left-sub-list {
+    float: left;
+}
+
+.gg-right-sub-list {
+    margin-left: 5rem;
+    align-items: center;
+    align-content: center;
+}
+
+.gg-rank-sub-list {
+    float: left;
+    margin-left: 5rem;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
 .header-tag {
     display: block;
     position: relative;
@@ -14,7 +44,35 @@
 
 .gg-leftside {
     float: left;
+    margin-left: 5rem;
 }
+
+.gg-rightside {
+    float: right;
+    margin-right: 8rem;
+    display: flex;
+}
+
+
+.gg-vertical-gallery {
+    align-items: center;
+    align-content: center;
+}
+
+.gg-vertical-gallery img {
+    width: 11.5rem;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+}
+
+
+#gg-may-rightside {
+    height: 36rem;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    margin-right: 7rem;
+}
+
 
 #gg-section {
     margin-top: 70rem;
@@ -26,9 +84,10 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
-
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
 }
 
 #gg-rank {
-    height: 3rem !important;
+    height: 2.8rem !important;
 }
