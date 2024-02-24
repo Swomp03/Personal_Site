@@ -5,6 +5,17 @@
     visibility: hidden;
 }
 
+.gg-carousel-container {
+    width: 50rem;
+    margin-bottom: 1.5rem;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+}
+
+.gg-leftside {
+    float: left;
+}
+
 #gg-section {
     margin-top: 70rem;
 }

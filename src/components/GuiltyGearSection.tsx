@@ -59,6 +59,56 @@ const GuiltyGearSection = () => {
         >
           <img id="gg-section-logo" src={GGLogo} alt="Guilty Gear Strive Logo" />
         </motion.li>
+        <div>
+          <div className="gg-leftside">
+            <motion.li
+              className="gg_item gg-carousel-container"
+              variants={gg_item}
+            >
+              <Carousel fade controls={false} interval={2500}>
+                <Carousel.Item>
+                  <img
+                    className="carousel-image d-block w-100"
+                    src={MaySlideshowZero}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="carousel-image d-block w-100"
+                    src={MaySlideshowOne}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="carousel-image d-block w-100"
+                    src={MaySlideshowTwo}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="carousel-image d-block w-100"
+                    src={MaySlideshowThree}
+                    alt="Fourth slide"
+                  />
+                </Carousel.Item>
+
+                <Carousel.Item>
+                  <img
+                    className="carousel-image d-block w-100"
+                    src={MaySlideshowFour}
+                    alt="Fifth slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
+            </motion.li>
+          </div>
+        </div>
       </motion.ul>
     </>
   )
