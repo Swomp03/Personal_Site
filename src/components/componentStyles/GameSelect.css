@@ -253,5 +253,10 @@ h1-slide-in {
 }
 
 .spacing2 {
-    margin-top: 60rem;
+    margin-top: 30rem;
+    margin-bottom: 10rem;
+}
+
+.spacing3 {
+    margin-top: 10rem;
 }

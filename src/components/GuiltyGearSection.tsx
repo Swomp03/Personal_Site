@@ -175,6 +175,7 @@ const GuiltyGearSection = () => {
             </div>
           </div>
         </div>
+
       </motion.ul>
     </>
   )
