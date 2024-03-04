@@ -43,7 +43,7 @@ h2 {
 
 .gg-leftside {
     float: left;
-    margin-left: 5rem;
+    margin-left: 7rem;
 }
 
 .gg-rightside {
@@ -89,4 +89,9 @@ h2 {
 
 #gg-rank {
     height: 2.8rem !important;
+}
+
+#gg-spacing {
+    height: 1rem;
+    margin-top: 25rem;
 }

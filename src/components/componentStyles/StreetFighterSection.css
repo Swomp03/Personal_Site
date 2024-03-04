@@ -72,11 +72,6 @@ p {
     margin-bottom: 10rem;
 }
 
-#sf-spacing {
-    height: 1rem;
-    margin-bottom: 25rem;
-}
-
 #sf-section-logo {
     height: 6rem;
     display: block;
@@ -85,4 +80,9 @@ p {
     margin-bottom: 2rem;
     -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
     filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+}
+
+#sf-spacing {
+    height: 1rem;
+    margin-bottom: 25rem;
 }

@@ -176,6 +176,8 @@ const GuiltyGearSection = () => {
           </div>
         </div>
 
+        <div><img id="gg-spacing"/></div>
+
       </motion.ul>
     </>
   )
