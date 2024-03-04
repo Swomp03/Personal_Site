@@ -66,6 +66,9 @@ h1-slide-in {
     margin-bottom: 8rem;
 }
 
+#bottom-game-list {
+    margin-top: 5rem;
+}
 
 
 
@@ -123,68 +126,6 @@ h1-slide-in {
     opacity: 1;
 }
 
-
-
-
-
-
-
-/*Tekken 8 Intro*/
-
-#tekken-logo {
-    height: 4.3rem;
-    z-index: 5 !important;
-    -webkit-filter: drop-shadow(0.5rem 0.5rem #000000);
-    filter: drop-shadow(0.5rem 0.5rem #000000);
-    transition: transform 0.2s ease-in-out;
-    position: relative;
-    margin-left: 1rem;
-}
-
-#victor-tekken-start {
-    height: 10rem;
-    opacity: 0;
-    z-index: 2;
-    position: absolute;
-    transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
-    margin-left: 10rem;
-    margin-top: -4rem;
-
-    -webkit-filter: drop-shadow(-0.5rem 0.5rem 0.75rem #C0C0C0) drop-shadow(0.5rem 0.5rem 0.75rem #5d00ff);
-    filter: drop-shadow(-0.5rem 0.5rem 0.75rem #C0C0C0) drop-shadow(0.5rem 0.5rem 0.75rem #5d00ff);
-}
-
-#tekken-health {
-    height: 3rem;
-    opacity: 0;
-    z-index: 1;
-    position: absolute;
-    transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
-    margin-left: 6rem;
-    margin-top: 2.5rem;
-    rotate: 4deg;
-
-    -webkit-filter: drop-shadow(0rem 0rem 0.75rem #ffeb34);
-    filter: drop-shadow(0rem 0rem 0.75rem #ffeb34);
-}
-
-#tekken-intro {
-    margin-top: 3rem;
-}
-
-#tekken-intro:hover #tekken-logo {
-    transform: scale(1.15);
-}
-
-#tekken-intro:hover #victor-tekken-start {
-    transform: scale(1.15) translateY(-5rem) rotate(9deg);
-    opacity: 1;
-}
-
-#tekken-intro:hover #tekken-health {
-    transform: scale(1.15) translateY(3.1rem) rotate(-6deg);
-    opacity: 1;
-}
 
 
 
@@ -259,4 +200,67 @@ h1-slide-in {
 
 .spacing3 {
     margin-top: 30rem;
+}
+
+
+
+
+
+
+
+/*Tekken 8 Intro*/
+
+#tekken-logo {
+    height: 4.3rem;
+    z-index: 5 !important;
+    -webkit-filter: drop-shadow(0.5rem 0.5rem #000000);
+    filter: drop-shadow(0.5rem 0.5rem #000000);
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+    margin-left: 1rem;
+}
+
+#victor-tekken-start {
+    height: 10rem;
+    opacity: 0;
+    z-index: 2;
+    position: absolute;
+    transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
+    margin-left: 10rem;
+    margin-top: -4rem;
+
+    -webkit-filter: drop-shadow(-0.5rem 0.5rem 0.75rem #C0C0C0) drop-shadow(0.5rem 0.5rem 0.75rem #5d00ff);
+    filter: drop-shadow(-0.5rem 0.5rem 0.75rem #C0C0C0) drop-shadow(0.5rem 0.5rem 0.75rem #5d00ff);
+}
+
+#tekken-health {
+    height: 3rem;
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
+    margin-left: 6rem;
+    margin-top: 2.5rem;
+    rotate: 4deg;
+
+    -webkit-filter: drop-shadow(0rem 0rem 0.75rem #ffeb34);
+    filter: drop-shadow(0rem 0rem 0.75rem #ffeb34);
+}
+
+#tekken-intro {
+    margin-top: 3rem;
+}
+
+#tekken-intro:hover #tekken-logo {
+    transform: scale(1.15);
+}
+
+#tekken-intro:hover #victor-tekken-start {
+    transform: scale(1.15) translateY(-5rem) rotate(9deg);
+    opacity: 1;
+}
+
+#tekken-intro:hover #tekken-health {
+    transform: scale(1.15) translateY(3.1rem) rotate(-6deg);
+    opacity: 1;
 }

@@ -75,24 +75,6 @@ const GameSelect = () => {
             </motion.div>
 
           </div>
-          
-          <div id="tekken-intro">
-            <img id="victor-tekken-start" src={victor_start} alt="Victor Start Image" />
-            <img id="tekken-health" src={tekken_health} alt="Tekken 8 Health" />
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              variants={logoAnimation(17, 350)}
-              id="tekken-start"
-              viewport={{
-                once: true
-              }}
-            >
-              <a href="#tekken-anchor">
-                <img id="tekken-logo" src={tekken_8_logo} alt="Tekken 8 Logo" />
-              </a>
-            </motion.div>
-          </div>
 
           <div id="gg-intro">
             <img id="may-gg-start" src={may_start} alt="May Start Image" />
@@ -112,6 +94,26 @@ const GameSelect = () => {
             </motion.div>
           </div>
 
+        </div>
+
+      <div className="game-list" id="bottom-game-list">
+        <div id="tekken-intro">
+          <img id="victor-tekken-start" src={victor_start} alt="Victor Start Image" />
+          <img id="tekken-health" src={tekken_health} alt="Tekken 8 Health" />
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            variants={logoAnimation(17, 350)}
+            id="tekken-start"
+            viewport={{
+              once: true
+            }}
+          >
+            <a href="#tekken-anchor">
+              <img id="tekken-logo" src={tekken_8_logo} alt="Tekken 8 Logo" />
+            </a>
+          </motion.div>
+        </div>
       </div>
 
       <div className="spacing">
@@ -119,12 +121,12 @@ const GameSelect = () => {
       </div>
 
       <div className="spacing2">
-        <TekkenSection></TekkenSection>
+        <GuiltyGearSection></GuiltyGearSection>
       </div>
 
       
       <div className="spacing3">
-        <GuiltyGearSection></GuiltyGearSection>
+        <TekkenSection></TekkenSection>
       </div>
 
     </>
