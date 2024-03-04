@@ -1,0 +1,88 @@
+h2 {
+    font-size: 40px;
+    -webkit-filter: drop-shadow(0.5rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem #000000);
+}
+
+p {
+    font-size: 20px;
+    -webkit-filter: drop-shadow(0.5rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem #000000);
+}
+
+.sf-carousel-container {
+    width: 50rem;
+    margin-bottom: 1.5rem;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+}
+
+.sf-leftside {
+    float: left;
+    margin-left: 6rem;
+}
+
+.sf-rightside {
+    float: right;
+    margin-right: 5rem;
+}
+
+.sf-vertical-gallery {
+    align-items: center;
+    align-content: center;
+    float: left;
+}
+
+.sf-vertical-gallery img {
+    width: 14.3rem;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+}
+
+.sf6-character-section {
+    float: right;
+}
+
+.sf-sub-list img {
+    width: 15rem;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+}
+
+.sf-left-sub-list {
+    float: left;
+    margin-left: 6rem;
+}
+
+.sf-right-sub-list {
+    float: right;
+    align-content: center;
+    text-align: center;
+    margin-right: 6rem;
+}
+
+#luke-main {
+    height: 42rem;
+    margin-left: 5rem;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+}
+
+#street-fighter-section {
+    margin-bottom: 10rem;
+}
+
+#sf-spacing {
+    height: 1rem;
+    margin-bottom: 25rem;
+}
+
+#sf-section-logo {
+    height: 6rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+}

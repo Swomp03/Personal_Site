@@ -19,6 +19,7 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import TekkenSection from "./TekkenSection";
 import GuiltyGearSection from "./GuiltyGearSection";
+import StreetFighterSection from "./StreetFighterSection";
 
 const GameSelect = () => { 
 
@@ -68,7 +69,9 @@ const GameSelect = () => {
                 once: true
               }}
             >
-              <img id="sf-logo" src={street_fighter_logo} alt="Street Fighter 6 Logo" />
+              <a href="#street-fighter-anchor">
+                <img id="sf-logo" src={street_fighter_logo} alt="Street Fighter 6 Logo" />
+              </a>
             </motion.div>
 
           </div>
@@ -112,11 +115,15 @@ const GameSelect = () => {
       </div>
 
       <div className="spacing">
+        <StreetFighterSection></StreetFighterSection>
+      </div>
+
+      <div className="spacing2">
         <TekkenSection></TekkenSection>
       </div>
 
       
-      <div className="spacing2">
+      <div className="spacing3">
         <GuiltyGearSection></GuiltyGearSection>
       </div>
 

@@ -1,6 +1,6 @@
 import {motion} from "framer-motion";
 
-import VictorPNG from "../images/VictorChevalierTekken8.png"
+import VictorPNG from "../images/VictorChevalierTekken8.png";
 import VictorSlideshowZero from '../images/VictorSlideshow0.png';
 import VictorSlideshowOne from '../images/VictorSlideshow1.png';
 import VictorSlideshowTwo from '../images/VictorSlideshow2.png';
