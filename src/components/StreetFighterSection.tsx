@@ -1,4 +1,3 @@
-import React from 'react'
 import {motion} from "framer-motion";
 
 import LukePNG from "../images/lukeSF6.png";
@@ -50,9 +49,17 @@ const StreetFighterSection = () => {
         <>
             <div className="header-tag" id="street-fighter-anchor"></div>
             <motion.ul
+              ref={sf_scrollRef}
+              className='sf_container'
+              variants={sf_container}
+              initial="hidden"
+              whileInView="visible"
             >
               <div id="street-fighter-section">
-                <motion.li>
+                <motion.li
+                  className="sf_item"
+                  variants={sf_item}
+                >
                     <img id="sf-section-logo" src={StreetFighterLogo} alt="Street Fighter 6 Logo" />
                 </motion.li>
 
@@ -60,32 +67,46 @@ const StreetFighterSection = () => {
                     <div className="sf-leftside">
                         <div className='sf-vertical-gallery'>
 
-                          <motion.li>
+                          <motion.li
+                            className="sf_item"
+                            variants={sf_item}
+                          >
                             <img src={LukeGalleryOne} alt="Luke Gallery 1" />
                           </motion.li>
 
                           <br />
 
-                          <motion.li>
+                          <motion.li
+                            className="sf_item"
+                            variants={sf_item}
+                          >
                             <img src={LukeGalleryTwo} alt="Luke Gallery 2" />
                           </motion.li>
 
                           <br />
 
-                          <motion.li>
+                          <motion.li
+                            className="sf_item"
+                            variants={sf_item}
+                          >
                             <img src={LukeGalleryThree} alt="Luke Gallery 3" />
                           </motion.li>
 
                         </div>
-                        <div className='sf6-character-section'>
+
+                        <motion.li
+                          className="sf_item sf6-character-section"
+                          variants={sf_item}
+                        >
                           <img id="luke-main" src={LukePNG} alt="Luke Sullivan SF6" />
-                        </div>
+                        </motion.li>
                     </div>
                 </div>
 
                 <div className='sf-rightside'>
                   <motion.li
-                    className="sf-carousel-container"
+                    className="sf-carousel-container sf_item"
+                    variants={sf_item}
                   >
                     <Carousel fade controls={false} interval={2500}>
                     <Carousel.Item>
@@ -129,18 +150,27 @@ const StreetFighterSection = () => {
                   <div className='sf-sub-list'>
 
                     <div className='sf-left-sub-list'>
-                      <motion.li>
+                      <motion.li
+                        className="sf_item"
+                        variants={sf_item}
+                      >
                         <h2>Character:</h2>
                         <p>Luke</p>
                       </motion.li>
-                      <motion.li>
+                      <motion.li
+                        className="sf_item"
+                        variants={sf_item}
+                      >
                         <h2>Type:</h2>
                         <p>Balanced & Aggressive</p>
                       </motion.li>
                     </div>
 
                     <div className='sf-right-sub-list'>
-                      <motion.li>
+                      <motion.li
+                        className="sf_item"
+                        variants={sf_item}
+                      >
                         <h2>Highest Rank:</h2>
                         <img src={SF6Rank} alt="Street Fighter 6 Master Rank" />
                       </motion.li>
