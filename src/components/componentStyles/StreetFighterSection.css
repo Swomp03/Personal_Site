@@ -27,7 +27,7 @@ p {
     margin-right: 5rem;
 }
 
-.sf-vertical-gallery {
+.sf-leftside .sf-vertical-gallery {
     align-items: center;
     align-content: center;
     float: left;
