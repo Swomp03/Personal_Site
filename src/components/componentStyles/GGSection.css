@@ -72,6 +72,11 @@ h2 {
     margin-right: 7rem;
 }
 
+#guilty-gear-section {
+    max-width: 115rem;
+    display: flexbox;
+    margin: auto;
+}
 
 #gg-section {
     margin-top: 70rem;

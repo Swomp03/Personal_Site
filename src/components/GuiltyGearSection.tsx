@@ -53,129 +53,130 @@ const GuiltyGearSection = () => {
         initial="hidden"
         whileInView="visible"
       >
-        <motion.li
-          className="gg_item"
-          variants={gg_item}
-        >
-          <img id="gg-section-logo" src={GGLogo} alt="Guilty Gear Strive Logo" />
-        </motion.li>
-        <div>
-          <div className="gg-leftside">
-            <motion.li
-              className="gg_item gg-carousel-container"
-              variants={gg_item}
-            >
-              <Carousel fade controls={false} interval={2500}>
-                <Carousel.Item>
-                  <img
-                    className="carousel-image d-block w-100"
-                    src={MaySlideshowZero}
-                    alt="First slide"
-                  />
-                </Carousel.Item>
+        <div id="guilty-gear-section">
+          <motion.li
+            className="gg_item"
+            variants={gg_item}
+          >
+            <img id="gg-section-logo" src={GGLogo} alt="Guilty Gear Strive Logo" />
+          </motion.li>
+          <div>
+            <div className="gg-leftside">
+              <motion.li
+                className="gg_item gg-carousel-container"
+                variants={gg_item}
+              >
+                <Carousel fade controls={false} interval={2500}>
+                  <Carousel.Item>
+                    <img
+                      className="carousel-image d-block w-100"
+                      src={MaySlideshowZero}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
 
-                <Carousel.Item>
-                  <img
-                    className="carousel-image d-block w-100"
-                    src={MaySlideshowOne}
-                    alt="Second slide"
-                  />
-                </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="carousel-image d-block w-100"
+                      src={MaySlideshowOne}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
 
-                <Carousel.Item>
-                  <img
-                    className="carousel-image d-block w-100"
-                    src={MaySlideshowTwo}
-                    alt="Third slide"
-                  />
-                </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="carousel-image d-block w-100"
+                      src={MaySlideshowTwo}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
 
-                <Carousel.Item>
-                  <img
-                    className="carousel-image d-block w-100"
-                    src={MaySlideshowThree}
-                    alt="Fourth slide"
-                  />
-                </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="carousel-image d-block w-100"
+                      src={MaySlideshowThree}
+                      alt="Fourth slide"
+                    />
+                  </Carousel.Item>
 
-                <Carousel.Item>
-                  <img
-                    className="carousel-image d-block w-100"
-                    src={MaySlideshowFour}
-                    alt="Fifth slide"
-                  />
-                </Carousel.Item>
-              </Carousel>
-            </motion.li>
-            <div className="gg-sub-list">
-              <div className="gg-left-sub-list">
-                <motion.li
-                  className="gg_item"
-                  variants={gg_item}
-                >
-                  <h2>Character:</h2>
-                  <p>May</p>
-                </motion.li>
-              </div>
+                  <Carousel.Item>
+                    <img
+                      className="carousel-image d-block w-100"
+                      src={MaySlideshowFour}
+                      alt="Fifth slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
+              </motion.li>
+              <div className="gg-sub-list">
+                <div className="gg-left-sub-list">
+                  <motion.li
+                    className="gg_item"
+                    variants={gg_item}
+                  >
+                    <h2>Character:</h2>
+                    <p>May</p>
+                  </motion.li>
+                </div>
 
-              <div className="gg-rank-sub-list">
-                <motion.li
-                  className="gg_item"
-                  variants={gg_item}
-                >
-                  <h2>Highest Rank:</h2>
-                  <img id="gg-rank" src={GGRank} alt="Guilty Gear Strive Rank" />
-                </motion.li>
-              </div>
+                <div className="gg-rank-sub-list">
+                  <motion.li
+                    className="gg_item"
+                    variants={gg_item}
+                  >
+                    <h2>Highest Rank:</h2>
+                    <img id="gg-rank" src={GGRank} alt="Guilty Gear Strive Rank" />
+                  </motion.li>
+                </div>
 
-              <div className="gg-right-sub-list">
-                <motion.li
-                  className="gg_item"
-                  variants={gg_item}
-                >
-                  <h2>Type:</h2>
-                  <p>Charge and Power</p>
-                </motion.li>
+                <div className="gg-right-sub-list">
+                  <motion.li
+                    className="gg_item"
+                    variants={gg_item}
+                  >
+                    <h2>Type:</h2>
+                    <p>Charge and Power</p>
+                  </motion.li>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="gg-rightside">
-            <motion.li
-              className="gg_item"
-              variants={gg_item}
-            >
-              <img id="gg-may-rightside" src={MayPNG} alt="May Guilty Gear" />
-            </motion.li>
-            <div className="gg-vertical-gallery">
+            <div className="gg-rightside">
               <motion.li
                 className="gg_item"
                 variants={gg_item}
               >
-                <img src={MayGalleryOne} alt="May Gallery One" />
+                <img id="gg-may-rightside" src={MayPNG} alt="May Guilty Gear" />
               </motion.li>
+              <div className="gg-vertical-gallery">
+                <motion.li
+                  className="gg_item"
+                  variants={gg_item}
+                >
+                  <img src={MayGalleryOne} alt="May Gallery One" />
+                </motion.li>
 
-              <br />
+                <br />
 
-              <motion.li
-                className="gg_item"
-                variants={gg_item}
-              >
-                <img src={MayGalleryTwo} alt="May Gallery Two" />
-              </motion.li>
+                <motion.li
+                  className="gg_item"
+                  variants={gg_item}
+                >
+                  <img src={MayGalleryTwo} alt="May Gallery Two" />
+                </motion.li>
 
-              <br />
+                <br />
 
-              <motion.li
-                className="gg_item"
-                variants={gg_item}
-              >
-                <img src={MayGalleryThree} alt="May Gallery Three" />
-              </motion.li>
+                <motion.li
+                  className="gg_item"
+                  variants={gg_item}
+                >
+                  <img src={MayGalleryThree} alt="May Gallery Three" />
+                </motion.li>
+              </div>
             </div>
           </div>
         </div>
-
         <div><img id="gg-spacing"/></div>
 
       </motion.ul>

@@ -50,6 +50,8 @@ const GameSelect = () => {
         <h1>Hobbies: Fighting Games</h1>
       </motion.div> */}
 
+      <script>console.log("Screen width: " + window.screen.width);</script>
+
       <h1 className="hobby-title">Hobbies: Fighting Games</h1>
 
 

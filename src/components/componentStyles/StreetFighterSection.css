@@ -69,7 +69,10 @@ p {
 }
 
 #street-fighter-section {
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
+    max-width: 115rem;
+    display: flexbox;
+    margin: auto auto 10rem;
 }
 
 #sf-section-logo {
