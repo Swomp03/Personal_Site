@@ -1,6 +1,64 @@
+:root {
+    --button-padding: 0.5rem 2rem;
+    --button-border-radius: 1rem;
+    --button-transition: 0.2s;
+}
+
+h3 {
+    color: white;
+    font-size: 32px;
+}
+
 #site-header {
     display: flex;
     background-color: #000b2b;
     margin: auto;
     position: sticky;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    border-radius: 0 0 1rem 1rem;
+}
+
+
+
+#home-button {
+    margin-right: 20rem;
+    padding: var(--button-padding);
+    border-radius: var(--button-border-radius);
+    transition: var(--button-transition);
+}
+
+#home-button:hover {
+    background-color: rgb(0, 180, 255);
+    transition: var(--button-transition);
+}
+
+
+
+
+#projects-button {
+    margin-right: 20rem;
+    padding: var(--button-padding);
+    border-radius: var(--button-border-radius);
+    transition: var(--button-transition);
+}
+
+#projects-button:hover {
+    background-color: rgb(0, 140, 255);
+    transition: var(--button-transition);
+}
+
+
+
+#hobbies-button {
+    padding: var(--button-padding);
+    border-radius: var(--button-border-radius);
+    transition: var(--button-transition);
+}
+
+#hobbies-button:hover {
+    background-color: rgb(0, 100, 255);
+    transition: var(--button-transition);
 }
