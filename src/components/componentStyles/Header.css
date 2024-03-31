@@ -1,0 +1,6 @@
+#site-header {
+    display: flex;
+    background-color: #000b2b;
+    margin: auto;
+    position: sticky;
+}
