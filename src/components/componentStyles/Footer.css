@@ -1,0 +1,59 @@
+#name-site {
+    margin-top: 1rem;
+    text-align: center;
+    transition: 0.2s;
+}
+
+#name-site:hover {
+    text-shadow: 0px 0px 30px #fdec6e;
+    transition: 0.2s;
+}
+
+
+
+#footer-section {
+    border-top: solid black 0.2rem;
+    margin: 10rem auto 2rem auto;
+    width: 90%;
+    justify-content: center;
+    align-self: center;
+
+}
+
+#footer {
+    margin-top: 2rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    margin-right: 1.5rem;
+}
+
+
+
+#github-icon {
+    height: 9rem;
+    margin-right: 3rem;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    transition: 0.2s;
+}
+
+#github-icon:hover {
+    transform: scale(1.15);
+    transition: 0.2s;
+}
+
+
+
+#linkedin-icon {
+    height: 6rem;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    transition: 0.2s;
+}
+
+#linkedin-icon:hover {
+    transform: scale(1.15);
+    transition: 0.2s;
+}

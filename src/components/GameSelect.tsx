@@ -21,6 +21,7 @@ import Header from "./Header";
 import TekkenSection from "./TekkenSection";
 import GuiltyGearSection from "./GuiltyGearSection";
 import StreetFighterSection from "./StreetFighterSection";
+import Footer from "./Footer";
 
 const GameSelect = () => { 
 
@@ -119,6 +120,7 @@ const GameSelect = () => {
         </div>
       </div>
 
+
       <div className="spacing">
         <StreetFighterSection></StreetFighterSection>
       </div>
@@ -127,11 +129,12 @@ const GameSelect = () => {
         <GuiltyGearSection></GuiltyGearSection>
       </div>
 
-      
       <div className="spacing3">
         <TekkenSection></TekkenSection>
       </div>
 
+      
+      <Footer></Footer>
     </>
   );
 };
