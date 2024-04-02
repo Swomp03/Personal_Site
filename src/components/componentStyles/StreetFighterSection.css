@@ -93,3 +93,91 @@ p {
 #street-fighter-anchor {
     padding-bottom: 1.5rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .sf-carousel-container {
+        width: 35rem;
+        margin-right: 0rem;
+        margin-left: 5rem;
+    }
+
+    .sf-leftside {
+        margin-left: 7rem;
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sf-vertical-gallery img {
+        width: 10rem;
+        margin-right: 2rem;
+    }
+
+    .sf-rightside {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .sf-left-sub-list {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .sf-right-sub-list {
+        margin-right: 1rem;
+    }
+
+    .sf-sub-list {
+        margin-left: 3rem;
+        margin-right: 0rem;
+    }
+
+    #luke-main {
+        margin-left: 0rem;
+        height: 30rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .sf-carousel-container {
+        width: 30rem;
+        margin-right: -1.5rem;
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+
+    .sf-vertical-gallery img {
+        width: 10rem;
+        margin-right: 0rem;
+        margin-left: 1rem;
+    }
+
+    .sf-leftside {
+        margin-left: 1rem;
+    }
+
+    .sf-sub-list {
+        margin-left: 5rem;
+        margin-right: 0rem;
+    }
+
+    .sf-left-sub-list {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .sf-right-sub-list {
+        margin-right: -2rem;
+    }
+
+    #sf-section-logo {
+        margin-right: 2rem;
+    }
+
+    #luke-main {
+        margin-left: 0rem;
+        height: 29rem;
+    }
+}

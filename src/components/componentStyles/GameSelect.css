@@ -264,3 +264,82 @@ h1-slide-in {
     transform: scale(1.15) translateY(3.1rem) rotate(-6deg);
     opacity: 1;
 }
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .game-list {
+        display: inline;
+    }
+
+    #sf-intro {
+        margin-top: -12%;
+        margin-left: 26%;
+    }
+
+    #sf-intro:hover #sf-logo {
+        transform: scale(1.05);
+    }
+
+    #sf-intro:hover #luke-sf-start {
+        opacity: 0;
+    }
+
+    #sf-intro:hover #sf-ca {
+        opacity: 0;
+    }
+
+
+
+
+    #gg-intro {
+        margin-top: 10%;
+        margin-left: 11%;
+        margin-bottom: 15%;
+    }
+
+    #gg-intro:hover #gg-logo {
+        transform: scale(1.05);
+    }
+
+    #gg-intro:hover #may-gg-start {
+        opacity: 0;
+    }
+
+    #gg-intro:hover #gg-burst {
+        opacity: 0;
+    }
+
+
+
+
+    #tekken-intro:hover #tekken-logo {
+        transform: scale(1.05);
+    }
+
+    #tekken-intro:hover #victor-tekken-start {
+        opacity: 0;
+    }
+
+    #tekken-intro:hover #tekken-health {
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #sf-intro {
+        margin-top: -12%;
+        margin-left: 19%;
+    }
+
+    #gg-intro {
+        margin-top: 12%;
+        margin-left: 0%;
+        margin-bottom: 17%;
+    }
+
+    #tekken-logo {
+        height: 4.5rem !important;
+    }
+}

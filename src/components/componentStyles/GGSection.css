@@ -94,6 +94,8 @@ h2 {
 
 #gg-rank {
     height: 2.8rem !important;
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
 }
 
 #gg-spacing {

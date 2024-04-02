@@ -62,3 +62,25 @@ h3 {
     background-color: rgb(0, 100, 255);
     transition: var(--button-transition);
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    #home-button {
+        margin-right: 2rem;
+    }
+
+    #projects-button {
+        margin-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #home-button {
+        margin-right: 1rem;
+    }
+
+    #projects-button {
+        margin-right: 1rem;
+    }
+}
