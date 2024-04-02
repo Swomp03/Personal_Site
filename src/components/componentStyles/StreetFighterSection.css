@@ -95,6 +95,7 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
+
     .sf-carousel-container {
         width: 35rem;
         margin-right: 0rem;
@@ -137,7 +138,9 @@ p {
         height: 30rem;
     }
 
-
+    #street-fighter-section {
+        margin-right: 1rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -173,11 +176,15 @@ p {
     }
 
     #sf-section-logo {
-        margin-right: 2rem;
+        margin-right: 3rem;
     }
 
     #luke-main {
         margin-left: 0rem;
         height: 29rem;
+    }
+
+    #street-fighter-section {
+        margin-right: 0rem;
     }
 }
