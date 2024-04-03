@@ -204,6 +204,12 @@ h1-slide-in {
 
 
 
+@media only screen and (max-width: 600px) {
+    .spacing3 {
+        padding-bottom: 10rem;
+    }
+}
+
 
 
 
@@ -341,5 +347,14 @@ h1-slide-in {
 
     #tekken-logo {
         height: 4.5rem !important;
+    }
+
+    .spacing3 {
+        padding-bottom: 0rem;
+        margin-bottom: -35rem;
+    }
+
+    body {
+        overflow-x: hidden;
     }
 }

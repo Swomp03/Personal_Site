@@ -107,3 +107,109 @@ p {
     padding-top: 2rem;
     margin-bottom: 10rem;
 }
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    #victor-main img {
+        height: 32rem;
+        margin-left: 5rem;
+    }
+
+    .vertical-gallery img {
+        width: 10rem;
+        margin-right: -10rem;
+        margin-left: 0rem;
+    }
+
+    .tekken-leftside {
+        margin-left: 6rem;
+        margin-right: 0;
+    }
+
+    .carousel-container {
+        width: 35rem;
+        margin-right: 10rem;
+    }
+
+
+    .sub-list {
+        margin-right: 10rem;
+        margin-left: 6rem;
+    }
+
+    .left-sub-list {
+        margin-left: -5rem !important;
+    }
+
+    .right-sub-list {
+        margin-left: -7rem;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:767px) {
+    #tekken-section #tekken-logo {
+        margin-left: -2rem;
+    }
+
+    .tekken-leftside {
+        margin-left: 2rem;
+        margin-right: 0;
+    }
+
+    .carousel-container {
+        width: 35rem;
+        margin-right: 4rem;
+    }
+
+    .tekken-rightside .right-sub-list {
+        margin-right: -5rem;
+    }
+
+    #tekken-section {
+        padding-top: 2rem;
+        margin-bottom: -10rem;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    #tekken-section {
+        margin-right: 0.5rem;
+    }
+
+    #tekken-section #tekken-logo {
+        margin-left: 0rem;
+    }
+
+    #victor-main img {
+        height: 32rem;
+        margin-left: 3rem;
+    }
+
+    .vertical-gallery img {
+        width: 10rem;
+        margin-right: -10rem;
+        margin-left: -2rem;
+    }
+
+    .tekken-leftside {
+        margin-left: 3rem;
+    }
+
+    .carousel-container {
+        width: 33rem;
+        margin-right: 5.5rem;
+    }
+
+    .tekken-rightside .left-sub-list {
+        margin-left: 0rem;
+    }
+
+    .tekken-rightside .right-sub-list {
+        margin-right: -5rem;
+    }
+}

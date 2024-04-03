@@ -106,3 +106,107 @@ h2 {
 #guilty-gear-anchor {
     padding-bottom: 2.8rem;
 }
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .gg-leftside {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .gg-carousel-container {
+        width: 35rem;
+        margin-left: 3.5rem;
+    }
+
+    .gg-sub-list {
+        margin-left: 0;
+        margin-bottom: 3rem;
+    }
+
+    .gg-rank-sub-list {
+        margin-left: 2rem;
+    }
+
+    .gg-right-sub-list {
+        margin-left: 3rem;
+    }
+
+    #gg-section-logo {
+        height: 6rem;
+        margin-right: 9.5rem;
+    }
+
+
+
+    .gg-rightside {
+        margin-right: 8rem;
+    }
+
+    #gg-may-rightside {
+        height: 28rem;
+        margin-right: 5rem;
+    }
+
+    .gg-vertical-gallery img {
+        width: 9rem;
+    }
+
+
+
+    #guilty-gear-section {
+        margin-bottom: 8rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    #gg-section-logo {
+        height: 6rem;
+        margin-right: 8rem;
+        margin-left: 1.5rem;
+    }
+
+    .gg-carousel-container {
+        width: 30rem;
+        margin-left: 1rem;
+    }
+
+    .gg-rank-sub-list {
+        margin-left: 1rem;
+        margin-right: 1.5rem;
+        align-content: normal;
+    }
+
+    #gg-rank {
+        height: 2.0rem !important;
+    }
+
+    .gg-right-sub-list {
+        margin-left: 0rem;
+        margin-right: 1rem;
+    }
+
+    .gg-sub-list {
+        margin-left: 0rem;
+        margin-bottom: 3rem;
+    }
+
+    .gg-sub-list h2 {
+        font-size: 30px;
+    }
+
+
+
+    #gg-may-rightside {
+        height: 28rem;
+        margin-right: 2rem;
+    }
+
+    .gg-rightside {
+        margin-right: 5rem;
+    }
+}
