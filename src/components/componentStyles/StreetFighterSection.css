@@ -1,3 +1,7 @@
+body {
+    /* background-image: linear-gradient(to bottom right, rgb(0, 38, 44), rgb(32, 0, 88)); */
+}
+
 h2 {
     font-size: 40px;
     -webkit-filter: drop-shadow(0.5rem 0.5rem 0.5rem #000000);

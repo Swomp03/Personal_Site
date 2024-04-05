@@ -22,6 +22,7 @@ import TekkenSection from "./TekkenSection";
 import GuiltyGearSection from "./GuiltyGearSection";
 import StreetFighterSection from "./StreetFighterSection";
 import Footer from "./Footer";
+import { useEffect, useRef, useState } from "react";
 
 const GameSelect = () => { 
 
@@ -39,7 +40,6 @@ const GameSelect = () => {
       }
     }
   });
-
   
 
   return (
@@ -57,7 +57,7 @@ const GameSelect = () => {
       <h1 className="hobby-title">Hobbies: Fighting Games</h1>
 
 
-      <div className="game-list">
+      <div className="game-list App">
 
           <div id="sf-intro">
             <img id="luke-sf-start" src={luke_start} alt="Luke Start Image" />

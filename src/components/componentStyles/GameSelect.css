@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 body {
-    background-color: #282828 !important;
+    /* background-color: #282828 !important; */
+    background-image: linear-gradient(to bottom right, rgb(2, 2, 2), rgb(88, 88, 88));
+    /* background-image: linear-gradient(to bottom right, rgb(0, 38, 44), rgb(32, 0, 88)); */
+}
+
+ul {
+    list-style-type: none;
 }
 
 h1 {
@@ -26,6 +32,7 @@ h1-slide-in {
     transform: translateY(-20px);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
+
 
 .h1-slide-in.visible {
     opacity: 1;
