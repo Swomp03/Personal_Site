@@ -19,7 +19,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import "../components/componentStyles/StreetFighterSection.css"
 
-import { useRef } from "react";
+import {useRef} from "react";
 
 
 const StreetFighterSection = () => {

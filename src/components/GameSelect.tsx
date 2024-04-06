@@ -22,7 +22,6 @@ import TekkenSection from "./TekkenSection";
 import GuiltyGearSection from "./GuiltyGearSection";
 import StreetFighterSection from "./StreetFighterSection";
 import Footer from "./Footer";
-import { useEffect, useRef, useState } from "react";
 
 const GameSelect = () => { 
 
@@ -39,6 +38,15 @@ const GameSelect = () => {
         duration: 0.1, type:"spring", damping: dampingAmount, stiffness: stiffnessAmount
       }
     }
+  });
+
+
+
+  
+  // Add a scroll event listener
+  window.addEventListener('scroll', function() {
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    console.log('Vertical Scroll Position:', scrollTop);
   });
   
 
