@@ -54,6 +54,7 @@ const GuiltyGearSection = () => {
         whileInView="visible"
       >
         <div id="guilty-gear-section">
+          <div className="GGRoundRectangle"></div>
           <motion.li
             className="gg_item"
             variants={gg_item}

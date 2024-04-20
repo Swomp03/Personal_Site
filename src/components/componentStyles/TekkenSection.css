@@ -78,6 +78,26 @@ p {
 
 
 
+.TekkenRoundRectangle {
+    height: 91%;
+    width: 95%;
+    background: linear-gradient(to bottom right, #8644ff89, #41a0ff90);
+    border-radius: 2.5%;
+    z-index: -5;
+    display: block;
+    position: absolute;
+    margin-left: -16rem;
+    margin-right: auto;
+    margin-top: 1rem;
+
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+}
+
+
+
+
+
 #tekken-logo {
     height: 5rem;
     display: block;
@@ -99,7 +119,7 @@ p {
 
 
 #bottom-spacing {
-    margin-top: 30rem;
+    margin-top: 33rem;
     width: 0.1px !important;
 }
 

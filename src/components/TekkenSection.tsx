@@ -57,7 +57,10 @@ const TekkenSection = () => {
         whileInView="visible"
       >
 
+        <div className="TekkenRoundRectangle"></div>
+
         <div id="tekken-section">
+
           <motion.li
             className="item"
             variants={item}

@@ -65,6 +65,26 @@ h2 {
 }
 
 
+.GGRoundRectangle {
+    height: 90%;
+    width: 95%;
+    background: linear-gradient(to bottom right, #ff842089, #ff4dc990);
+    border-radius: 2.5%;
+    z-index: -5;
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2rem;
+
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+}
+
+
+
+
+
 #gg-may-rightside {
     height: 36rem;
     -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);

@@ -65,6 +65,28 @@ p {
     margin-right: 6rem;
 }
 
+.SFRoundRectangle {
+    height: 88%;
+    width: 95%;
+    background: linear-gradient(to bottom right, #44beff89, #ffe56190);
+    border-radius: 2.5%;
+    z-index: -5;
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -0.5rem;
+
+    -webkit-filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+    filter: drop-shadow(1rem 0.5rem 0.5rem #000000);
+}
+
+
+
+
+
+
+
 #luke-main {
     height: 42rem;
     margin-left: 5rem;

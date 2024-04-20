@@ -48,6 +48,9 @@ const StreetFighterSection = () => {
     return (
         <>
             <div className="header-tag" id="street-fighter-anchor"></div>
+
+            
+
             <motion.ul
               ref={sf_scrollRef}
               className='sf_container'
@@ -56,6 +59,8 @@ const StreetFighterSection = () => {
               whileInView="visible"
             >
               <div id="street-fighter-section">
+                
+                <div className="SFRoundRectangle"></div>
                 <motion.li
                   className="sf_item"
                   variants={sf_item}
