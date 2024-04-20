@@ -120,6 +120,16 @@ p {
     padding-bottom: 1.5rem;
 }
 
+
+@media only screen and (min-width: 2560px) {
+    .SFRoundRectangle {
+        width: 72%;
+        height: 70%;
+    }
+}
+
+
+
 @media only screen and (max-width: 768px) {
 
     .sf-carousel-container {
@@ -167,9 +177,15 @@ p {
     #street-fighter-section {
         margin-right: 1rem;
     }
+
+    .SFRoundRectangle {
+        width: 92%;
+        height: 132%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
+
     .sf-carousel-container {
         width: 30rem;
         margin-right: -1.5rem;
@@ -202,7 +218,8 @@ p {
     }
 
     #sf-section-logo {
-        margin-right: 3rem;
+        margin-right: 4rem;
+        height: 5rem;
     }
 
     #luke-main {
@@ -212,5 +229,12 @@ p {
 
     #street-fighter-section {
         margin-right: 0rem;
+    }
+
+
+    .SFRoundRectangle {
+        width: 93%;
+        height: 123%;
+        margin-left: -0.5rem;
     }
 }

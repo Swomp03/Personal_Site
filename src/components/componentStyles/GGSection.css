@@ -128,6 +128,12 @@ h2 {
 }
 
 
+@media only screen and (min-width: 2560px) {
+    .GGRoundRectangle {
+        width: 72%;
+        height: 70%;
+    }
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -146,12 +152,16 @@ h2 {
         margin-bottom: 3rem;
     }
 
+    .gg-left-sub-list {
+        margin-left: 1rem;
+    }
+
     .gg-rank-sub-list {
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
 
     .gg-right-sub-list {
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
 
     #gg-section-logo {
@@ -178,6 +188,11 @@ h2 {
 
     #guilty-gear-section {
         margin-bottom: 8rem;
+    }
+
+    .GGRoundRectangle {
+        width: 92%;
+        height: 132%;
     }
 
 
@@ -228,5 +243,15 @@ h2 {
 
     .gg-rightside {
         margin-right: 5rem;
+    }
+
+    .GGRoundRectangle {
+        width: 93%;
+        height: 123%;
+        margin-left: -0.5rem;
+    }
+
+    .gg-rightside {
+        margin-right: 3rem;
     }
 }

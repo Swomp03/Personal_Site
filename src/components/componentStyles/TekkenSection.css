@@ -129,9 +129,19 @@ p {
 }
 
 
+@media only screen and (min-width: 2560px) {
+    .TekkenRoundRectangle {
+        width: 72%;
+        height: 70%;
+    }
+
+    #bottom-spacing {
+        margin-top: 35rem;
+    }
+}
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
 
     #victor-main img {
         height: 32rem;
@@ -169,19 +179,19 @@ p {
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width:767px) {
+@media only screen and (min-width: 600px) and (max-width:768px) {
     #tekken-section #tekken-logo {
         margin-left: -2rem;
     }
 
     .tekken-leftside {
-        margin-left: 2rem;
+        margin-left: 1rem;
         margin-right: 0;
     }
 
     .carousel-container {
         width: 35rem;
-        margin-right: 4rem;
+        margin-right: 5rem;
     }
 
     .tekken-rightside .right-sub-list {
@@ -191,6 +201,16 @@ p {
     #tekken-section {
         padding-top: 2rem;
         margin-bottom: -10rem;
+    }
+
+    .TekkenRoundRectangle {
+        height: 133%;
+        width: 92%;
+        margin-left: -5.5rem;
+    }
+
+    #bottom-spacing {
+        margin-top: 11rem;
     }
 
 }
@@ -203,6 +223,10 @@ p {
 
     #tekken-section #tekken-logo {
         margin-left: 0rem;
+    }
+
+    #tekken-logo {
+        height: 4.5rem !important;
     }
 
     #victor-main img {
@@ -221,15 +245,35 @@ p {
     }
 
     .carousel-container {
-        width: 33rem;
-        margin-right: 5.5rem;
+        width: 30rem;
+        margin-right: 0rem;
+    }
+
+    .tekken-rightside {
+        margin-right: 0.5rem;
     }
 
     .tekken-rightside .left-sub-list {
-        margin-left: 0rem;
+        margin-left: -5rem;
     }
 
     .tekken-rightside .right-sub-list {
-        margin-right: -5rem;
+        margin-right: -11rem;
+    }
+
+    .TekkenRoundRectangle {
+        height: 133%;
+        width: 92%;
+        margin-left: -0.7rem;
+    }
+
+    #bottom-spacing {
+        margin-top: 70rem;
+    }
+
+    .tekken-rightside .right-sub-list img {
+        height: 8rem;
+        margin-right: 1rem;
+        margin-top: 0.5rem;
     }
 }
