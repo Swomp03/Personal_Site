@@ -5,7 +5,7 @@
 }
 
 h3 {
-    color: white;
+    color: white !important;
     font-size: 32px;
 }
 
