@@ -1,0 +1,20 @@
+.home-h2 {
+    font-size: 4rem;
+    margin: 2rem 0rem 2rem;
+    text-align: center;
+}
+
+.home-subtitle-h2 {
+    font-size: 2rem;
+    margin: 2rem 0rem 2rem;
+    text-align: center;
+}
+
+#home-image {
+    height: 20rem;
+    -webkit-filter: drop-shadow(0.5rem 0.5rem #000000);
+    filter: drop-shadow(0.5rem 0.5rem #000000);
+    display: flex;
+    justify-content: center;
+    margin-right: 2rem;
+}

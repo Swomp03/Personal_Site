@@ -1,5 +1,6 @@
 #name-site {
     margin-top: 1rem;
+    margin-right: 1.5rem;
     text-align: center;
     transition: 0.2s;
 }
@@ -26,7 +27,7 @@
     justify-items: center;
     align-items: center;
     display: flex;
-    margin-right: 1.5rem;
+    margin-right: 3rem;
 }
 
 
