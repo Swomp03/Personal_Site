@@ -125,6 +125,72 @@ p {
 }
 
 
+@media only screen and (max-width: 1536px) and (min-width: 769px) {
+
+    .sf-carousel-container {
+        width: 28rem;
+        margin-right: 0rem;
+        margin-left: 5rem;
+    }
+
+    .sf-leftside {
+        margin-left: 10rem;
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sf-vertical-gallery img {
+        width: 9.5rem;
+        margin-right: 2rem;
+    }
+    
+    .sf-rightside {
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-right: 12rem;
+    }
+    
+    .sf-left-sub-list {
+        margin-left: 2.2rem;
+        margin-right: 3rem;
+    }
+    
+    .sf-right-sub-list {
+        margin-right: 1rem;
+    }
+
+    .sf-sub-list {
+        margin-left: 3rem;
+        margin-right: 0rem;
+    }
+
+    #luke-main {
+        margin-left: 2rem;
+        height: 28.5rem;
+    }
+    
+    #street-fighter-section {
+        margin-right: 1rem;
+    }
+    
+    .SFRoundRectangle {
+        width: 85%;
+        /* height: 90%; */
+        margin-left: 4.5rem;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    #sf-spacing {
+        height: 1rem;
+        margin-bottom: 5rem;
+    }
+}
+
+
 
 @media only screen and (max-width: 768px) {
 

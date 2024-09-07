@@ -136,6 +136,70 @@ h2 {
 }
 
 
+@media only screen and (max-width: 1536px) and (min-width: 769px) {
+    .gg-leftside {
+        margin-left: 5rem;
+        margin-right: 0;
+    }
+
+    .gg-carousel-container {
+        width: 35rem;
+        margin-left: 3.5rem;
+    }
+
+    .gg-sub-list {
+        margin-left: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .gg-left-sub-list {
+        margin-left: 1rem;
+    }
+
+    .gg-rank-sub-list {
+        margin-left: 1rem;
+    }
+
+    .gg-right-sub-list {
+        margin-left: 2rem;
+    }
+
+    #gg-section-logo {
+        height: 6rem;
+        margin-right: 33rem;
+    }
+
+
+
+    .gg-rightside {
+        margin-right: 12rem;
+    }
+
+    #gg-may-rightside {
+        height: 26rem;
+        margin-right: 5rem;
+    }
+
+    .gg-vertical-gallery img {
+        width: 8.5rem;
+    }
+
+    #guilty-gear-section {
+        margin-bottom: 8rem;
+    }
+
+    .GGRoundRectangle {
+        width: 85%;
+        /* height: 132%; */
+        margin-left: 4.5rem;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
     .gg-leftside {
         margin-left: 0;
