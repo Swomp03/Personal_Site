@@ -179,11 +179,17 @@ p {
 
     .TekkenRoundRectangle{
         width: 85%;
+        height: 90%;
         margin-left: -0.5rem;
     }
 
     .tekken-rightside .right-sub-list img{
         height: 8rem;
+    }
+
+    #tekken-section {
+        padding-top: 2rem;
+        margin-bottom: 0rem;
     }
 }
 

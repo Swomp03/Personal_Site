@@ -278,7 +278,12 @@ h1-slide-in {
 }
 
 
-
+@media only screen and (max-width: 1536px) and (min-width: 769px) {
+    .game-logo-section{
+        transform: scale(0.80);
+        margin-top: -5rem;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .game-list {
