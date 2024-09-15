@@ -16,7 +16,16 @@ const Projects = () => {
       <h3 className='projects-h3'>Web Development</h3>
 
       <div className='dev-body'>
-        <SingleProject title="hello testing" explanation="test" skills={personaList}></SingleProject>
+        <SingleProject
+          title="Persona Social Link Guide"
+          explanation="A site that guides players through a mechanic in the video game series: Persona"
+          skills={personaList}
+          link="https://swomp03.github.io/Persona_Project/"
+          gitHubLink="https://github.com/Swomp03/Persona_Project"
+        >
+        </SingleProject>
+
+        {/* <SingleProject title=""></SingleProject> */}
       </div>
       <Footer></Footer>
     </>

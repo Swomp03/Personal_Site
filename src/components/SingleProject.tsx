@@ -7,12 +7,30 @@ const SingleProject = (props: any) => {
 
     return(
         <div className="project-div">
-            <h1>{props.title}</h1>
+            <div className="project-header">
+                <img src="" alt="" />
+                <h1 className="project-title">{props.title}</h1>
+                <img src="" alt="" />
+            </div>
+            
+
             <h2>{props.explanation}</h2>
 
-            <ul>
-                {skills.map((skill: string) => <li>{skill}</li>)}
+            <ul className="skill-list">
+                {skills.map((skill: string) => <li className="individual-skill">{skill}</li>)}
             </ul>
+            
+            <div className="links">
+                <a href={props.link} target="blank">
+                    {/* <img src={props.webIcon} alt={props.webAlt}/> */}
+                    <p>Website</p>
+                </a>
+
+                <a href={props.gitHubLink} target="blank">
+                    {/* <img src={props.gitHubIcon} alt={props.gitHubAlt}/> */}
+                    <p>GitHub</p>
+                </a>
+            </div>
         </div>
     );
 }
