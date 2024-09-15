@@ -1,0 +1,19 @@
+.projects-h2{
+    font-size: 4rem;
+    margin: 2rem 0rem 2rem;
+    text-align: center;
+}
+
+.projects-h3{
+    color: #74d3ff !important;
+    font-size: 3rem;
+    margin: 2rem 0rem 2rem;
+    text-align: center;
+    text-shadow: #000000 1rem 1rem 1rem;
+}
+
+.dev-body{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
