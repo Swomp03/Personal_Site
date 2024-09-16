@@ -25,6 +25,7 @@ const Projects = () => {
       <div className='dev-body'>
         <SingleProject
           title="Persona Social Link Guide"
+          projectBackground="project-background-1"
 
           leftImg={HtmlCssJS}
           leftAlt="HtmlCssJS Logo"
@@ -47,6 +48,7 @@ const Projects = () => {
 
         <SingleProject
           title="Personal Site"
+          projectBackground="project-background-2"
 
           leftImg={BootstrapIcon}
           leftAlt="Bootstrap Icon"
