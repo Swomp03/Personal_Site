@@ -1,4 +1,6 @@
 import "./componentStyles/SingleProject.css"
+import webIcon from "../images/internetIcon.png"
+import gitHubAlt from "../images/GithubIconReverse.png"
 
 const SingleProject = (props: any) => {
 
@@ -14,20 +16,20 @@ const SingleProject = (props: any) => {
             </div>
             
 
-            <h2>{props.explanation}</h2>
+            <h2 className="explanation">{props.explanation}</h2>
 
             <ul className="skill-list">
                 {skills.map((skill: string) => <li className="individual-skill">{skill}</li>)}
             </ul>
             
             <div className="links">
-                <a href={props.link} target="blank">
-                    {/* <img src={props.webIcon} alt={props.webAlt}/> */}
+                <a className="webIcon" href={props.link} target="blank">
+                    <img src={webIcon} alt={props.webAlt}/>
                     <p>Website</p>
                 </a>
 
-                <a href={props.gitHubLink} target="blank">
-                    {/* <img src={props.gitHubIcon} alt={props.gitHubAlt}/> */}
+                <a className="gitHubIcon" href={props.gitHubLink} target="blank">
+                    <img src={gitHubAlt} alt={props.gitHubAlt}/>
                     <p>GitHub</p>
                 </a>
             </div>

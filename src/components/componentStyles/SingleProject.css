@@ -1,7 +1,18 @@
 .project-div{
+    padding: 1rem;
     border-style: solid;
     border-color: aliceblue;
-    width: 45vw;
+    border-radius: 2rem;
+    width: 48vw;
+    margin: auto;
+}
+
+.project-title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.explanation{
+    font-size: 18px;
 }
 
 .skill-list{
@@ -19,4 +30,28 @@
     padding: 0.5rem 1rem;
     
     background-color: rgb(27, 76, 122);
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.webIcon{
+    margin-right: 1.5rem;
+}
+
+.webIcon img{
+    height: 5rem;
+}
+
+.gitHubIcon{
+    margin-left: 1.5rem;
+}
+
+.gitHubIcon img{
+    height: 5rem;
 }

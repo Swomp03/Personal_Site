@@ -18,14 +18,25 @@ const Projects = () => {
       <div className='dev-body'>
         <SingleProject
           title="Persona Social Link Guide"
-          explanation="A site that guides players through a mechanic in the video game series: Persona"
+          explanation="A site that guides players through a mechanic in the video game series: Persona."
           skills={personaList}
           link="https://swomp03.github.io/Persona_Project/"
+          webAlt="Persona Project Link"
           gitHubLink="https://github.com/Swomp03/Persona_Project"
+          gitHubAlt="Persona Project GitHub Link"
         >
         </SingleProject>
 
-        {/* <SingleProject title=""></SingleProject> */}
+        <SingleProject
+          title="Personal Site"
+          explanation="Personal site for myself."
+          skills={personalSiteList}
+          link="/"
+          webAlt="Personal Site Link"
+          gitHubLink="https://github.com/Swomp03/Personal_Site"
+          gitHubAlt="Personal Site GitHub Link"
+        >
+        </SingleProject>
       </div>
       <Footer></Footer>
     </>

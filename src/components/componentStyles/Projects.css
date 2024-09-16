@@ -7,12 +7,13 @@
 .projects-h3{
     color: #74d3ff !important;
     font-size: 3rem;
-    margin: 2rem 0rem 2rem;
+    margin: 3rem 0rem 4rem;
     text-align: center;
     text-shadow: #000000 1rem 1rem 1rem;
 }
 
 .dev-body{
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
