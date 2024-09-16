@@ -10,9 +10,9 @@ const SingleProject = (props: any) => {
     return(
         <div className="project-div">
             <div className="project-header">
-                <img src="" alt="" />
+                <img className= {`project-icon ${props.leftImgClass}`}  src={props.leftImg} alt={props.leftAlt} />
                 <h2 className="project-title"><b>{props.title}</b></h2>
-                <img src="" alt="" />
+                <img className={`project-icon ${props.rightImgClass}`} src={props.rightImg} alt={props.rightAlt} />
             </div>
             
 
