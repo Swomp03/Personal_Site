@@ -145,3 +145,58 @@
 .reactIcon{
     margin-left: var(--selfSiteSpacing);
 }
+
+
+@media only screen and (max-width: 768px) {
+    .project-div{
+        width: 44rem;
+        margin-bottom: 3rem;
+    }
+
+    .project-icon{
+        max-height: 2rem;
+    }
+
+    .htmlIcon{
+        margin-right: 2rem;
+    }
+    
+    .personaIcon{
+        margin-left: 2rem;
+    }
+    
+    .bootstrapIcon{
+        margin-right: 10rem;
+    }
+    
+    .reactIcon{
+        margin-left: 10rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project-div{
+        width: 35rem;
+        margin-bottom: 3rem;
+    }
+
+    .htmlIcon{
+        margin-right: 2rem;
+    }
+    
+    .personaIcon{
+        margin-left: 2rem;
+    }
+
+    .bootstrapIcon{
+        margin-right: 8rem;
+    }
+    
+    .reactIcon{
+        margin-left: 8rem;
+    }
+
+    .project-title{
+        font-size: 28px;
+    }
+}
