@@ -79,3 +79,18 @@
     transform: scale(1.15) translateY(3.5rem) rotate(-6deg);
     opacity: 1;
 }
+
+@media only screen and (max-width: 768px){
+    #projects-title{
+        margin-top: 3rem;
+        margin-bottom: -5rem;
+    }
+
+    #VSCodeLogo{
+        display: none;
+    }
+
+    #TypeScriptLogo{
+        display: none;
+    }
+}
