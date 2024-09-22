@@ -26,7 +26,11 @@ const SingleProject = (props: any) => {
         hidden: { y: 20, opacity: 0 },
         visible: {
           y: 0,
-          opacity: 1
+          opacity: 1,
+          transition: {
+            delayChildren: 0.05,
+            staggerChildren: 0.05
+          }
         }
     }
 
@@ -42,27 +46,60 @@ const SingleProject = (props: any) => {
             >
                 <div className={`project-div ${props.projectBackground}`}>
                     <div className="project-header">
-                        <img className= {`project-icon ${props.leftImgClass}`}  src={props.leftImg} alt={props.leftAlt} />
-                        <h2 className="project-title"><b>{props.title}</b></h2>
-                        <img className={`project-icon ${props.rightImgClass}`} src={props.rightImg} alt={props.rightAlt} />
+                        <motion.div
+                            className="project_item"
+                            variants={project_item}
+                        >
+                            <img className= {`project-icon ${props.leftImgClass}`}  src={props.leftImg} alt={props.leftAlt} />
+                        </motion.div>
+
+                        <motion.div
+                            className="project_item"
+                            variants={project_item}
+                        >
+                            <h2 className="project-title"><b>{props.title}</b></h2>
+                        </motion.div>
+
+                        <motion.div
+                            className="project_item"
+                            variants={project_item}
+                        >
+                            <img className={`project-icon ${props.rightImgClass}`} src={props.rightImg} alt={props.rightAlt} />
+                        </motion.div>
                     </div>
                     
+                    <motion.div
+                        className="project_item"
+                        variants={project_item}
+                    >
+                        <h2 className="explanation">{props.explanation}</h2>
+                    </motion.div>
 
-                    <h2 className="explanation">{props.explanation}</h2>
 
                     <ul className="skill-list">
-                        {skills.map((skill: string) => <li className="individual-skill">{skill}</li>)}
+                        {skills.map((skill: string) => <motion.div className="project_item" variants={project_item}><li className="individual-skill">{skill}</li></motion.div>)}
                     </ul>
+                    
                     
                     <div className="links">
                         <a className="webIcon" href={props.link} target="blank">
-                            <img src={webIcon} alt={props.webAlt}/>
-                            <p>Website</p>
+                            <motion.div
+                                className="project_item"
+                                variants={project_item}
+                            >
+                                <img src={webIcon} alt={props.webAlt}/>
+                                <p>Website</p>
+                            </motion.div>
                         </a>
 
                         <a className="gitHubIcon" href={props.gitHubLink} target="blank">
-                            <img src={gitHubAlt} alt={props.gitHubAlt}/>
-                            <p>GitHub</p>
+                            <motion.div
+                                className="project_item"
+                                variants={project_item}
+                            >
+                                <img src={gitHubAlt} alt={props.gitHubAlt}/>
+                                <p>GitHub</p>
+                            </motion.div>
                         </a>
                     </div>
                 </div>
