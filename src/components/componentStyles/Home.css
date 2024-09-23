@@ -94,3 +94,14 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 480px){
+    #home-image{
+        height: 15rem;
+        margin-left: 1rem;
+    }
+
+    .home-subtitle-h2{
+        font-size: 1.8rem;
+    }
+}
