@@ -200,3 +200,41 @@
         font-size: 28px;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .project-div{
+        width: 19rem;
+        margin-bottom: 3rem;
+    }
+
+    .htmlIcon{
+        margin-right: 0rem;
+    }
+    
+    .personaIcon{
+        margin-left: 0rem;
+    }
+
+    .bootstrapIcon{
+        margin-right: 0rem;
+    }
+    
+    .reactIcon{
+        margin-left: 0rem;
+    }
+
+    .project-title{
+        font-size: 28px;
+    }
+
+    .project-header{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links{
+        margin-top: 1rem;
+    }
+}
