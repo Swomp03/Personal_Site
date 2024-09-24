@@ -104,6 +104,8 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
+    -webkit-filter: drop-shadow(0.5rem 0.5rem #000000);
+    filter: drop-shadow(0.5rem 0.5rem #000000);
 }
 
 #victor-main {

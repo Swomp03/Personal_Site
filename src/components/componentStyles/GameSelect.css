@@ -222,7 +222,7 @@ h1-slide-in {
 
 /*Tekken 8 Intro*/
 
-#tekken-logo {
+#tekken-logo-main {
     height: 4.3rem;
     z-index: 5 !important;
     -webkit-filter: drop-shadow(0.5rem 0.5rem #000000);
@@ -287,7 +287,9 @@ h1-slide-in {
 
 @media only screen and (max-width: 768px) {
     .game-list {
-        display: inline;
+        display: block;
+        justify-content: center;
+        align-items: center;
     }
 
     #sf-intro {
@@ -330,8 +332,11 @@ h1-slide-in {
 
 
 
+    #tekken-logo-main{
+        margin-left: 15%;
+    }
 
-    #tekken-intro:hover #tekken-logo {
+    #tekken-intro:hover #tekken-logo-main {
         transform: scale(1.05);
     }
 
@@ -356,9 +361,9 @@ h1-slide-in {
         margin-bottom: 17%;
     }
 
-    #tekken-logo {
-        height: 4.5rem !important;
-        margin-right: 1rem;
+    #tekken-logo-main {
+        height: 4.5rem;
+        margin-left: 6%;
     }
 
     .spacing3 {
@@ -368,5 +373,29 @@ h1-slide-in {
 
     body {
         overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #sf-logo{
+        height: 13rem;
+        margin-left: -3rem;
+    }
+
+    #gg-logo{
+        height: 3.6rem;
+        margin-left: 9%;
+        margin-top: 8%;
+    }
+
+    #tekken-logo-main{
+        height: 2.5rem;
+        margin-left: 7%;
+        margin-top: 8%;
+        /* display: none !important; */
+    }
+
+    .hobby-title{
+        font-size: 24px;
     }
 }
