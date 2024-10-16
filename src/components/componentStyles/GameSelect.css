@@ -238,7 +238,7 @@ h1-slide-in {
     z-index: 2;
     position: absolute;
     transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
-    margin-left: 10rem;
+    margin-left: 8rem;
     margin-top: -4rem;
 
     -webkit-filter: drop-shadow(-0.5rem 0.5rem 0.75rem #C0C0C0) drop-shadow(0.5rem 0.5rem 0.75rem #5d00ff);
@@ -251,7 +251,7 @@ h1-slide-in {
     z-index: 1;
     position: absolute;
     transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
-    margin-left: 6rem;
+    margin-left: 4rem;
     margin-top: 2.5rem;
     rotate: 4deg;
 
@@ -263,7 +263,7 @@ h1-slide-in {
     margin-top: 3rem;
 }
 
-#tekken-intro:hover #tekken-logo {
+#tekken-intro:hover #tekken-logo-main {
     transform: scale(1.15);
 }
 
@@ -279,7 +279,7 @@ h1-slide-in {
 
 
 @media only screen and (max-width: 1536px) and (min-width: 769px) {
-    .game-logo-section{
+    .game-logo-section {
         transform: scale(0.80);
         margin-top: -5rem;
     }
@@ -332,7 +332,7 @@ h1-slide-in {
 
 
 
-    #tekken-logo-main{
+    #tekken-logo-main {
         margin-left: 15%;
     }
 
@@ -376,26 +376,26 @@ h1-slide-in {
     }
 }
 
-@media only screen and (max-width: 480px){
-    #sf-logo{
+@media only screen and (max-width: 480px) {
+    #sf-logo {
         height: 13rem;
         margin-left: -3rem;
     }
 
-    #gg-logo{
+    #gg-logo {
         height: 3.6rem;
         margin-left: 9%;
         margin-top: 8%;
     }
 
-    #tekken-logo-main{
+    #tekken-logo-main {
         height: 2.5rem;
         margin-left: 7%;
         margin-top: 8%;
         /* display: none !important; */
     }
 
-    .hobby-title{
+    .hobby-title {
         font-size: 24px;
     }
 }
