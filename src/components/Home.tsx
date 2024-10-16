@@ -17,6 +17,12 @@ const Home = () => {
         </div>
         <h2 className="home-subtitle-h2">A <b><i>Software Developer</i></b>.</h2>
       </div>
+
+      <div className='projects'>
+        <h3>Project1</h3>
+
+        <h3>Project2</h3>
+      </div>
       <Footer></Footer>
     </>
   )
