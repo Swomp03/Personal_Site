@@ -125,8 +125,74 @@ p {
 }
 
 
+@media only screen and (max-width: 1536px) {
 
-@media only screen and (max-width: 768px) {
+    .sf-carousel-container {
+        width: 28rem;
+        margin-right: 0rem;
+        margin-left: 5rem;
+    }
+
+    .sf-leftside {
+        margin-left: 8rem;
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sf-vertical-gallery img {
+        width: 9.5rem;
+        margin-right: 2rem;
+    }
+    
+    .sf-rightside {
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-right: 10rem;
+    }
+    
+    .sf-left-sub-list {
+        margin-left: 2.2rem;
+        margin-right: 3rem;
+    }
+    
+    .sf-right-sub-list {
+        margin-right: 1rem;
+    }
+
+    .sf-sub-list {
+        margin-left: 3rem;
+        margin-right: 0rem;
+    }
+
+    #luke-main {
+        margin-left: 2rem;
+        height: 28.5rem;
+    }
+    
+    #street-fighter-section {
+        margin-right: 1rem;
+    }
+    
+    .SFRoundRectangle {
+        width: 85%;
+        /* height: 90%; */
+        margin-left: 4.5rem;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    #sf-spacing {
+        height: 1rem;
+        margin-bottom: 5rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
 
     .sf-carousel-container {
         width: 35rem;
@@ -232,5 +298,75 @@ p {
         width: 93%;
         height: 123%;
         margin-left: -0.5rem;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #sf-section-logo{
+        height: 3.3rem !important;
+        margin-left: -0.5rem;
+    }
+
+    .sf-carousel-container {
+        width: 18rem;
+        margin-right: -3rem;
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+
+    .sf-vertical-gallery img {
+        width: 10rem;
+        margin-right: 0rem;
+        margin-left: 2.3rem;
+    }
+
+    .sf-leftside {
+        margin-left: 1rem;
+    }
+
+    .sf-sub-list {
+        margin-left: 5rem;
+        margin-right: 0rem;
+    }
+
+    .sf-left-sub-list {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .sf-right-sub-list {
+        margin-right: -2rem;
+    }
+
+    #sf-section-logo {
+        margin-right: 4rem;
+        height: 5rem;
+    }
+
+    #luke-main {
+        margin-left: -2rem;
+        height: 29rem;
+    }
+
+    #street-fighter-section {
+        margin-right: 0rem;
+    }
+
+
+    .SFRoundRectangle {
+        width: 93%;
+        height: 180%;
+        margin-left: -1.2rem;
+    }
+
+    .sf-left-sub-list{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3.5rem;
+    }
+
+    .sf-rightside{
+        margin-right: 4.8rem;
     }
 }

@@ -65,7 +65,7 @@ h3 {
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     #home-button {
         margin-right: 2rem;
     }
@@ -82,5 +82,21 @@ h3 {
 
     #projects-button {
         margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #home-button{
+        padding: 0;
+        margin-right: 2rem;
+    }
+
+    #projects-button{
+        padding: 0;
+    }
+
+    #hobbies-button{
+        padding: 0;
+        margin-left: 0.7rem;
     }
 }

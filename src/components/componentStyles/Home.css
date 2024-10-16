@@ -29,3 +29,90 @@
     justify-content: center;
     margin-right: 2rem;
 }
+
+
+#project-items{
+    align-items: center;
+    align-self: center;
+}
+
+#project-intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects-title{
+    text-align: center;
+    position: relative;
+    margin-top: 10rem;
+    font-size: 3rem;
+    z-index: 5;
+    transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
+}
+
+#VSCodeLogo{
+    margin-top: 8rem;
+    margin-left: 1rem;
+    height: 9rem;
+    position: absolute;
+    opacity: 0;
+    z-index: 4;
+    transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
+    align-self: center;
+    -webkit-filter: drop-shadow(-0.5rem 0.5rem 0.5rem #00e5ff) drop-shadow(0.5rem 0.5rem 0.5rem #00ff9d);
+    filter: drop-shadow(-0.1rem 0.1rem 0.5rem #00e5ff) drop-shadow(0.1rem 0.1rem 0.5rem #00ff9d);
+}
+
+#TypeScriptLogo{
+    margin-top: 8rem;
+    margin-left: 1.8rem;
+    height: 8rem;
+    position: absolute;
+    opacity: 0;
+    z-index: 3;
+    transition: transform 0.25s ease-out, opacity 0.15s ease-out, rotate 0.25s ease-out;
+    -webkit-filter: drop-shadow(-0.5rem 0.5rem 10rem #006aff) drop-shadow(0.5rem 0.5rem 10rem #ff006f);
+    filter: drop-shadow(-0.1rem 0.1rem 0.5rem #006aff) drop-shadow(-0.1rem 0.1rem 0.5rem #ff006f);
+}
+
+
+#project-items:hover #projects-title{
+    transform: scale(1.15);
+}
+
+#project-items:hover #VSCodeLogo{
+    transform: scale(1.15) translateY(-5rem) rotate(7deg);
+    opacity: 1;
+}
+
+#project-items:hover #TypeScriptLogo{
+    transform: scale(1.15) translateY(3.5rem) rotate(-6deg);
+    opacity: 1;
+}
+
+@media only screen and (max-width: 768px){
+    #projects-title{
+        margin-top: 3rem;
+        margin-bottom: -5rem;
+    }
+
+    #VSCodeLogo{
+        display: none;
+    }
+
+    #TypeScriptLogo{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #home-image{
+        height: 15rem;
+        margin-left: 1rem;
+    }
+
+    .home-subtitle-h2{
+        font-size: 1.8rem;
+    }
+}
