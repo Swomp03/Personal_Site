@@ -12,11 +12,15 @@ import P5Mask from "../images/P5Mask.png"
 import BootstrapIcon from "../images/BootstrapLogo.png"
 import ReactIcon from "../images/reactimg.png"
 
+import AngularIcon from "../images/AngularLogo.png"
+import TailwindIcon from "../images/TailwindLogo.svg.png"
+
 import {useRef} from "react";
 
 const Projects = () => {
   const personaList = ['HTML', 'CSS', 'JavaScript', 'Git', 'Bootstrap'];
   const personalSiteList = ['React', 'TypeScript', 'Bootstrap', 'Vite', 'HTML', 'CSS', 'Git']
+  const cryptoSiteList = ['Angular 19+', 'TypeScript', 'Tailwind', 'RXJS', 'HTML', 'CSS', 'Git']
 
   const mainProject_container = {
     hidden: { opacity: 1, scale: 1 },
@@ -120,6 +124,34 @@ const Projects = () => {
 
               gitHubLink="https://github.com/Swomp03/Personal_Site"
               gitHubAlt="Personal Site GitHub Link"
+            >
+            </SingleProject>
+          </motion.div>
+
+          <motion.div
+            className="mainProject_item"
+            variants={mainProject_item}
+          >
+            <SingleProject
+              title="Crypto Tracker"
+              projectBackground="project-background-3"
+
+              leftImg={AngularIcon}
+              leftAlt="Angular Icon"
+              leftImgClass="angularIcon"
+
+              rightImg={TailwindIcon}
+              rightAlt="Tailwind Icon"
+              rightImgClass="tailwindIcon"
+
+              explanation="Crypto currency application tracking the prices of different coins."
+              skills={cryptoSiteList}
+
+              link="https://swomp03.github.io/Crypto_Project/"
+              webAlt="Crypto Site Link"
+
+              gitHubLink="https://github.com/Swomp03/Crypto_Project"
+              gitHubAlt="Crypto Site GitHub Link"
             >
             </SingleProject>
           </motion.div>

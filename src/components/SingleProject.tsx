@@ -82,7 +82,7 @@ const SingleProject = (props: any) => {
                     
                     
                     <div className="links">
-                        <a className="webIcon" href={props.link} target="blank">
+                        <a className="webIcon" href={props.link} target="_blank">
                             <motion.div
                                 className="project_item"
                                 variants={project_item}
@@ -92,7 +92,7 @@ const SingleProject = (props: any) => {
                             </motion.div>
                         </a>
 
-                        <a className="gitHubIcon" href={props.gitHubLink} target="blank">
+                        <a className="gitHubIcon" href={props.gitHubLink} target="_blank">
                             <motion.div
                                 className="project_item"
                                 variants={project_item}

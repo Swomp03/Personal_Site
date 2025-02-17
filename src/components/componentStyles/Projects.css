@@ -1,10 +1,10 @@
-.projects-h2{
+.projects-h2 {
     font-size: 4rem;
     margin: 2rem 0rem 2rem;
     text-align: center;
 }
 
-.projects-h3{
+.projects-h3 {
     color: #74d3ff !important;
     font-size: 3rem;
     margin: 3rem 0rem 4rem;
@@ -12,7 +12,7 @@
     text-shadow: #000000 1rem 1rem 1rem;
 }
 
-.dev-body{
+.dev-body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -20,16 +20,20 @@
     margin-bottom: -5rem;
 }
 
-.mainProject_container{
+.mainProject_container {
     margin-left: -4rem;
 }
 
-@media only screen and (max-width: 600px){
-    .projects-h2{
+.mainProject_item {
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .projects-h2 {
         margin-left: 2rem;
     }
 
-    .projects-h3{
+    .projects-h3 {
         margin-left: 2rem;
     }
 }

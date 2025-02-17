@@ -1,4 +1,4 @@
-.project-div{
+.project-div {
     padding: 1rem;
     border-style: solid;
     border-color: aliceblue;
@@ -8,36 +8,36 @@
     box-shadow: 0.5rem 0.5rem black;
 }
 
-.project-background-1{
+.project-background-1 {
     background-image: linear-gradient(to bottom right, #092c48, #ce3b65);
 }
 
-.project-background-2{
+.project-background-2 {
     background-image: linear-gradient(to bottom right, #2b0948, #ce653b);
 }
 
-.project-background-3{
+.project-background-3 {
     background-image: linear-gradient(to bottom right, #76030f, #121b67);
 }
 
-.project-background-4{
+.project-background-4 {
     background-image: linear-gradient(to bottom right, #3a6186, #89253e);
 }
 
 
-.project-title{
+.project-title {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     transition: 0.2s;
 }
 
-.project-title:hover{
+.project-title:hover {
     text-shadow: 0px 0px 30px #fdec6e;
 }
 
 
 
-.project-header{
+.project-header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -45,11 +45,11 @@
     margin-bottom: 2rem;
 }
 
-.explanation{
+.explanation {
     font-size: 18px;
 }
 
-.skill-list{
+.skill-list {
     flex-wrap: wrap;
     display: flex;
     padding: 0;
@@ -57,25 +57,25 @@
     filter: drop-shadow(0.3rem 0.3rem 0.5rem #000000);
 }
 
-.individual-skill{
+.individual-skill {
     color: aliceblue;
     border-style: solid;
     border-radius: 2rem;
     border-color: aqua;
     margin: 1rem 0.5rem;
     padding: 0.5rem 1rem;
-    
+
     background-color: rgb(27, 76, 122);
     transition: 0.2s;
 }
 
-.individual-skill:hover{
+.individual-skill:hover {
     scale: 1.15;
 }
 
 
 
-.links{
+.links {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -83,158 +83,202 @@
     justify-content: center;
 }
 
-.links img{
+.links img {
     height: 5rem;
     -webkit-filter: drop-shadow(0.5rem 0.5rem 0.5rem #000000);
     filter: drop-shadow(0.5rem 0.5rem 0.5rem #000000);
     margin-bottom: 0.5rem;
 }
 
-.webIcon{
+.webIcon {
     margin-right: 1.5rem;
     transition: 0.2s;
 }
 
-.webIcon:hover{
+.webIcon:hover {
     scale: 1.15;
 }
 
-.gitHubIcon{
+.gitHubIcon {
     margin-left: 1.5rem;
     transition: 0.2s;
 }
 
-.gitHubIcon:hover{
+.gitHubIcon:hover {
     scale: 1.15;
 }
 
 
 
-:root{
+:root {
     --personaSpacing: 8vh;
     --selfSiteSpacing: 24.5vh;
+    --cryptoSpacing: 20vh;
 }
 
-.test{
+.test {
     margin-bottom: 5vh;
 }
 
-.project-icon{
+.project-icon {
     max-height: 6vh;
     -webkit-filter: drop-shadow(0.5rem 0.5rem 0.1rem #000000);
     filter: drop-shadow(0.5rem 0.5rem 0.1rem #000000);
     transition: 0.2s;
 }
 
-.project-icon:hover{
+.project-icon:hover {
     scale: 1.15;
 }
 
-.htmlIcon{
+.htmlIcon {
     margin-right: var(--personaSpacing);
 }
 
-.personaIcon{
+.personaIcon {
     margin-left: var(--personaSpacing);
 }
 
-.bootstrapIcon{
+.bootstrapIcon {
     margin-right: var(--selfSiteSpacing);
 }
 
-.reactIcon{
+.reactIcon {
     margin-left: var(--selfSiteSpacing);
+}
+
+.angularIcon {
+    min-height: 8vh;
+    margin-right: var(--cryptoSpacing);
+}
+
+.tailwindIcon {
+    margin-left: var(--cryptoSpacing);
 }
 
 
 @media only screen and (max-width: 1024px) {
-    .project-div{
+    .project-div {
         width: 44rem;
         margin-bottom: 3rem;
     }
 
-    .project-icon{
+    .project-icon {
         max-height: 2rem;
     }
 
-    .htmlIcon{
+    .htmlIcon {
         margin-right: 2rem;
     }
-    
-    .personaIcon{
+
+    .personaIcon {
         margin-left: 2rem;
     }
-    
-    .bootstrapIcon{
+
+    .bootstrapIcon {
         margin-right: 10rem;
     }
-    
-    .reactIcon{
+
+    .reactIcon {
+        margin-left: 10rem;
+    }
+
+    .angularIcon {
+        min-height: 6vh;
+        margin-right: 10rem;
+    }
+
+    .tailwindIcon {
         margin-left: 10rem;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .project-div{
+    .project-div {
         width: 35rem;
         margin-bottom: 3rem;
     }
 
-    .htmlIcon{
+    .htmlIcon {
         margin-right: 2rem;
     }
-    
-    .personaIcon{
+
+    .personaIcon {
         margin-left: 2rem;
     }
 
-    .bootstrapIcon{
+    .bootstrapIcon {
         margin-right: 8rem;
     }
-    
-    .reactIcon{
+
+    .reactIcon {
         margin-left: 8rem;
     }
 
-    .project-title{
+    .angularIcon {
+        min-height: 6vh;
+        margin-right: 6rem;
+    }
+
+    .tailwindIcon {
+        margin-left: 6rem;
+    }
+
+
+
+
+
+    .project-title {
         font-size: 28px;
     }
 }
 
 @media only screen and (max-width: 480px) {
-    .project-div{
+    .project-div {
         width: 19rem;
         margin-bottom: 3rem;
     }
 
-    .htmlIcon{
+    .htmlIcon {
         margin-right: 0rem;
     }
-    
-    .personaIcon{
+
+    .personaIcon {
         margin-left: 0rem;
     }
 
-    .bootstrapIcon{
+    .bootstrapIcon {
         margin-right: 0rem;
     }
-    
-    .reactIcon{
+
+    .reactIcon {
         margin-left: 0rem;
     }
 
-    .project-title{
+    .angularIcon {
+        min-height: 6vh;
+        margin-right: 0rem;
+    }
+
+    .tailwindIcon {
+        margin-left: 0rem;
+    }
+
+
+
+
+    .project-title {
         font-size: 28px;
     }
 
-    .project-header{
+    .project-header {
         flex-wrap: nowrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .links{
+    .links {
         margin-top: 1rem;
     }
 }
