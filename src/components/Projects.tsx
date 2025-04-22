@@ -15,12 +15,16 @@ import ReactIcon from "../images/reactimg.png"
 import AngularIcon from "../images/AngularLogo.png"
 import TailwindIcon from "../images/TailwindLogo.svg.png"
 
+import WordpressIcon from "../images/WordpressLogo.png"
+import ElementorIcon from "../images/ElementorLogo.png"
+
 import {useRef} from "react";
 
 const Projects = () => {
   const personaList = ['HTML', 'CSS', 'JavaScript', 'Git', 'Bootstrap'];
   const personalSiteList = ['React', 'TypeScript', 'Bootstrap', 'Vite', 'HTML', 'CSS', 'Git']
   const cryptoSiteList = ['Angular 19+', 'TypeScript', 'Tailwind', 'RXJS', 'HTML', 'CSS', 'Git']
+  const wordpressSiteList = ['WordPress', 'Elementor', 'Astra', 'HTML', 'CSS', 'JavaScript']
 
   const mainProject_container = {
     hidden: { opacity: 1, scale: 1 },
@@ -152,6 +156,35 @@ const Projects = () => {
 
               gitHubLink="https://github.com/Swomp03/Crypto_Project"
               gitHubAlt="Crypto Site GitHub Link"
+            >
+            </SingleProject>
+          </motion.div>
+
+          <motion.div
+            className="mainProject_item"
+            variants={mainProject_item}
+          >
+            <SingleProject
+              title="WordPress Design Site"
+              projectBackground="project-background-4"
+
+              leftImg={WordpressIcon}
+              leftAlt="WordPress Icon"
+              leftImgClass="wordpressIcon"
+
+              rightImg={ElementorIcon}
+              rightAlt="Elementor Icon"
+              rightImgClass="elementorIcon"
+
+              explanation="Design website detailing personal information using Wordpress."
+              skills={wordpressSiteList}
+
+              link="https://design-robertliao.com/"
+              webAlt="Wordpress Site Link"
+
+              gitHubLink="https://github.com/Swomp03/Crypto_Project"
+              gitHubAlt="Crypto Site GitHub Link"
+              gitHubExists="False"
             >
             </SingleProject>
           </motion.div>

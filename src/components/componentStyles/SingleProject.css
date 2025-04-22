@@ -114,6 +114,7 @@
     --personaSpacing: 8vh;
     --selfSiteSpacing: 24.5vh;
     --cryptoSpacing: 20vh;
+    --wordpressSpacing: 15vh
 }
 
 .test {
@@ -154,6 +155,16 @@
 
 .tailwindIcon {
     margin-left: var(--cryptoSpacing);
+}
+
+.wordpressIcon {
+    min-height: 8vh;
+    margin-right: var(--wordpressSpacing);
+}
+
+.elementorIcon {
+    min-height: 8vh;
+    margin-left: var(--wordpressSpacing);
 }
 
 

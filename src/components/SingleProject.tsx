@@ -82,25 +82,29 @@ const SingleProject = (props: any) => {
                     
                     
                     <div className="links">
-                        <a className="webIcon" href={props.link} target="_blank">
-                            <motion.div
-                                className="project_item"
-                                variants={project_item}
-                            >
-                                <img src={webIcon} alt={props.webAlt}/>
-                                <p>Website</p>
-                            </motion.div>
-                        </a>
+                        {props.siteExists != "False" &&
+                            <a className="webIcon" href={props.link} target="_blank">
+                                <motion.div
+                                    className="project_item"
+                                    variants={project_item}
+                                >
+                                    <img src={webIcon} alt={props.webAlt}/>
+                                    <p>Website</p>
+                                </motion.div>
+                            </a>
+                        }
 
-                        <a className="gitHubIcon" href={props.gitHubLink} target="_blank">
-                            <motion.div
-                                className="project_item"
-                                variants={project_item}
-                            >
-                                <img src={gitHubAlt} alt={props.gitHubAlt}/>
-                                <p>GitHub</p>
-                            </motion.div>
-                        </a>
+                        {props.gitHubExists != "False" &&
+                            <a className="gitHubIcon" href={props.gitHubLink} target="_blank">
+                                <motion.div
+                                    className="project_item"
+                                    variants={project_item}
+                                >
+                                    <img src={gitHubAlt} alt={props.gitHubAlt}/>
+                                    <p>GitHub</p>
+                                </motion.div>
+                            </a>
+                        }
                     </div>
                 </div>
             </motion.ul>
