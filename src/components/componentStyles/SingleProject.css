@@ -24,6 +24,10 @@
     background-image: linear-gradient(to bottom right, #3a6186, #89253e);
 }
 
+.project-background-5 {
+    background-image: linear-gradient(to bottom right, #e08268, #6397ff);
+}
+
 
 .project-title {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -114,7 +118,8 @@
     --personaSpacing: 8vh;
     --selfSiteSpacing: 24.5vh;
     --cryptoSpacing: 20vh;
-    --wordpressSpacing: 15vh
+    --wordpressSpacing: 15vh;
+    --coinFlipSpacing: 22vh;
 }
 
 .test {
@@ -165,6 +170,15 @@
 .elementorIcon {
     min-height: 8vh;
     margin-left: var(--wordpressSpacing);
+}
+
+.reactIconCoinFlip {
+    margin-right: var(--coinFlipSpacing);
+}
+
+.nodeJSIcon {
+    min-height: 8vh;
+    margin-left: var(--coinFlipSpacing);
 }
 
 
@@ -275,8 +289,37 @@
         margin-left: 0rem;
     }
 
+    .wordpressIcon {
+        margin-right: 0rem;
+    }
+
+    .elementorIcon {
+        margin-left: 0rem;
+    }
+
+    .reactIconCoinFlip {
+        margin-right: 0rem;
+    }
+
+    .nodeJSIcon {
+        margin-left: 0rem;
+    }
 
 
+
+
+
+
+
+    .webIcon {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .gitHubIcon {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 
     .project-title {
         font-size: 28px;

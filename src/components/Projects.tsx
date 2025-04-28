@@ -18,13 +18,16 @@ import TailwindIcon from "../images/TailwindLogo.svg.png"
 import WordpressIcon from "../images/WordpressLogo.png"
 import ElementorIcon from "../images/ElementorLogo.png"
 
+import NodeJsIcon from "../images/nodejsicon.png";
+
 import {useRef} from "react";
 
 const Projects = () => {
   const personaList = ['HTML', 'CSS', 'JavaScript', 'Git', 'Bootstrap'];
   const personalSiteList = ['React', 'TypeScript', 'Bootstrap', 'Vite', 'HTML', 'CSS', 'Git']
-  const cryptoSiteList = ['Angular 19+', 'TypeScript', 'Tailwind', 'RXJS', 'HTML', 'CSS', 'Git']
+  const cryptoSiteList = ['Angular 19+', 'TypeScript', 'Tailwind', 'RXJS', 'HTML', 'CSS']
   const wordpressSiteList = ['WordPress', 'Elementor', 'Astra', 'HTML', 'CSS', 'JavaScript']
+  const coinflipList = ['React', 'TypeScript', 'Node JS API', 'PostgreSQL', 'HTML', 'CSS']
 
   const mainProject_container = {
     hidden: { opacity: 1, scale: 1 },
@@ -186,6 +189,33 @@ const Projects = () => {
               gitHubAlt="Crypto Site GitHub Link"
               gitHubExists="False"
             >
+            </SingleProject>
+          </motion.div>
+
+          <motion.div
+            className="mainProject_item"
+            variants={mainProject_item}
+          >
+            <SingleProject
+              title="Coin Flip Pro"
+              projectBackground="project-background-5"
+
+              leftImg={ReactIcon}
+              leftAlt="React Icon"
+              leftImgClass="reactIconCoinFlip"
+
+              rightImg={NodeJsIcon}
+              rightAlt="NodeJS Icon"
+              rightImgClass="nodeJSIcon"
+
+              explanation="A web application that tracks user coin flip results and statistics."
+              skills={coinflipList}
+
+              link="https://swomp03.github.io/CoinFlip_Project/"
+              webAlt="Coin Flip Site Link"
+
+              gitHubLink="https://swomp03.github.io/Coinflip-Project/">
+
             </SingleProject>
           </motion.div>
         </div>
