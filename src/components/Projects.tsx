@@ -211,10 +211,10 @@ const Projects = () => {
               explanation="A web application that tracks user coin flip results and statistics."
               skills={coinflipList}
 
-              link="https://swomp03.github.io/CoinFlip_Project/"
+              link="https://swomp03.github.io/Coinflip-Project/"
               webAlt="Coin Flip Site Link"
 
-              gitHubLink="https://swomp03.github.io/Coinflip-Project/">
+              gitHubLink="https://github.com/Swomp03/Coinflip-Project">
 
             </SingleProject>
           </motion.div>
